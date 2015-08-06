@@ -1,7 +1,7 @@
 # Skeleton for new Rails 4 application for REST API
 
-[![Code Climate](https://codeclimate.com/github/fs/rails-base-api.png)](https://codeclimate.com/github/fs/rails-base-api)
-[![Semaphore](https://semaphoreapp.com/api/v1/projects/0e00006725dcea00b179fab81a1b1bdaf9a64816/106819/shields_badge.png)](https://semaphoreapp.com/fs/rails-base-api)
+[![Code Climate](https://codeclimate.com/github/fs/rails-base-api.png)](https://codeclimate.com/github/fs/brain-fitness-api)
+[![Semaphore](https://semaphoreci.com/api/v1/projects/e308d8c6-23ba-4721-a929-9843545c84eb/504487/shields_badge.png)](https://semaphoreci.com/fs/brain-fitness-api)
 
 This simple application includes ruby/rails technology which we use at FlatStack for new REST API projects.
 
