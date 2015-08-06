@@ -30,3 +30,6 @@ Lint/EndAlignment:
   SupportedStyles:
     - keyword
     - variable
+
+Style/ClassAndModuleChildren:
+  Enabled: false

@@ -1,4 +1,4 @@
-class SessionsController < Devise::SessionsController
+class V1::SessionsController < Devise::SessionsController
   wrap_parameters :user
 
   skip_before_action :skip_trackable
