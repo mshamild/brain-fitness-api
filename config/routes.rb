@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
   scope defaults: { format: :json } do
     devise_for :users, only: []
-    devise_scope :user do
-      post 'users/sign_in', to: 'sessions#create'
+
+    namespace :v1 do
+      devise_scope :user do
+        resources :sessions, only: :create
+      end
     end
   end
 end
