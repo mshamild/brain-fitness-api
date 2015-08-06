@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
+ruby '2.2.1'
 
 # the most important stuff
-gem 'rails', '4.1.11'
+gem 'rails'
 gem 'pg'
-# https://github.com/rails-api/rails-api/issues/135
-gem 'rails-api', git: 'https://github.com/fs/rails-api.git'
+gem 'rails-api'
 
 # all other gems
 gem 'thin'
@@ -30,13 +29,9 @@ group :development do
 end
 
 group :development, :test do
-  # FIXME: Required for fixing warning
-  # https://github.com/rspec/rspec-rails/pull/772
-  # Going to be fixed in rspec > 2.99
-  #
   gem 'minitest'
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails'
   gem 'mail_safe'
 
   gem 'rails_best_practices'
@@ -58,7 +53,7 @@ end
 group :development, :test, :staging do
   gem 'faker'
   gem 'factory_girl_rails'
-  gem 'rspec_api_documentation', '~> 4.0.0'
+  gem 'rspec_api_documentation'
   gem 'apitome'
 end
 
