@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-describe UserSerializer do
+describe CurrentUserSerializer do
   let(:user) { build :user, id: 1, authentication_token: 'token' }
-  let(:json) { UserSerializer.new(user).to_json }
+  let(:json) { CurrentUserSerializer.new(user).to_json }
   let(:user_json) { parse_json(json)['user'] }
 
   it 'returns user' do

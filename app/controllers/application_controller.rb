@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
   include SkipTrackable
   include TokenAuthentication
 
+  before_action :authenticate_user!
+
   self.responder = ApiResponder
 
   decent_configuration do
