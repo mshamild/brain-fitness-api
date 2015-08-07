@@ -29,4 +29,39 @@ resource 'Registrations' do
       end
     end
   end
+
+  patch '/v1/registrations' do
+    let(:current_user) { create :user, email: 'user@example.com', name: 'Name', password: 'password' }
+
+    parameter :email, 'Email', scope: :user
+    parameter :password, 'Password', scope: :user
+    parameter :name, 'Name', scope: :user
+    parameter :auth_token, required: true
+
+    let(:name) { 'newName' }
+    let(:email) { 'newuser@example.com' }
+    let(:password) { 'newpassword' }
+
+    context "when auth token valid" do
+      let(:auth_token) { current_user.authentication_token }
+
+      example_request 'Update user with valid attributes' do
+        current_user.reload
+
+        expect(current_user.email).to eq email
+        expect(current_user.name).to eq name
+        expect(current_user).to be_valid_password password
+
+        expect(response_status).to eq 204
+      end
+    end
+
+    context "when auth token valid" do
+      let(:auth_token) { :invalid_token }
+
+      example_request 'Update user' do
+        expect(response_status).to eq 401
+      end
+    end
+  end
 end
