@@ -11,7 +11,7 @@ resource 'Registrations' do
 
     let(:name) { 'Name' }
 
-    context "with valid attributes" do
+    context 'with valid attributes' do
       let(:email) { 'newuser@example.com' }
       let(:password) { 'password' }
 
@@ -20,7 +20,7 @@ resource 'Registrations' do
       end
     end
 
-    context "with invalid attributes" do
+    context 'with invalid attributes' do
       let(:email) { ['newuser@example.com', nil].sample }
       let(:password) { 'password' unless email }
 
@@ -42,7 +42,7 @@ resource 'Registrations' do
     let(:email) { 'newuser@example.com' }
     let(:password) { 'newpassword' }
 
-    context "when auth token valid" do
+    context 'when auth token valid' do
       let(:auth_token) { current_user.authentication_token }
 
       example_request 'Update user with valid attributes' do
@@ -56,7 +56,7 @@ resource 'Registrations' do
       end
     end
 
-    context "when auth token valid" do
+    context 'when auth token valid' do
       let(:auth_token) { :invalid_token }
 
       example_request 'Update user' do

@@ -4,8 +4,7 @@ class V1::RegistrationsController < ApplicationController
   expose(:user, attributes: :user_attributes)
 
   def create
-    respond_with user.tap(&:save),
-      serializer: CurrentUserSerializer
+    respond_with user.tap(&:save), serializer: CurrentUserSerializer
   end
 
   def update
