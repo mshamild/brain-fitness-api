@@ -6,7 +6,6 @@ RSpec.describe Game, type: :model do
   end
 
   describe 'validations' do
-    it { is_expected.to validate_presence_of(:rounds) }
     it { is_expected.to validate_length_of(:rounds) }
   end
 end
