@@ -10,8 +10,6 @@ class RoundBuilder
   delegate :new, to: :Round, prefix: true
 
   def build_round
-    round_new do |round|
-
-    end
+    round_new
   end
 end
