@@ -1,0 +1,2 @@
+class GameSerializer < ApplicationSerializer
+end
