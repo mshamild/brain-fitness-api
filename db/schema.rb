@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150808103217) do
+ActiveRecord::Schema.define(version: 20150808223557) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,6 +47,26 @@ ActiveRecord::Schema.define(version: 20150808103217) do
 
   add_index "questions", ["category_id"], name: "index_questions_on_category_id", using: :btree
 
+  create_table "round_categories", force: :cascade do |t|
+    t.integer  "round_id"
+    t.integer  "category_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "round_categories", ["category_id"], name: "index_round_categories_on_category_id", using: :btree
+  add_index "round_categories", ["round_id"], name: "index_round_categories_on_round_id", using: :btree
+
+  create_table "round_questions", force: :cascade do |t|
+    t.integer  "round_category_id"
+    t.integer  "question_id"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
+
+  add_index "round_questions", ["question_id"], name: "index_round_questions_on_question_id", using: :btree
+  add_index "round_questions", ["round_category_id"], name: "index_round_questions_on_round_category_id", using: :btree
+
   create_table "rounds", force: :cascade do |t|
     t.integer  "game_id"
     t.datetime "created_at", null: false
@@ -78,5 +98,9 @@ ActiveRecord::Schema.define(version: 20150808103217) do
 
   add_foreign_key "answer_variants", "questions"
   add_foreign_key "questions", "categories"
+  add_foreign_key "round_categories", "categories"
+  add_foreign_key "round_categories", "rounds"
+  add_foreign_key "round_questions", "questions"
+  add_foreign_key "round_questions", "round_categories"
   add_foreign_key "rounds", "games"
 end
