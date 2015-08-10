@@ -2,6 +2,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :trackable, :validatable
 
+  has_and_belongs_to_many :games
+
   before_save :ensure_authentication_token!
 
   def ensure_authentication_token!
