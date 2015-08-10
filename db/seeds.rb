@@ -1,6 +1,7 @@
 [
-  { file: 'js_questions.json', title: 'JavaScript', color: '#0000ff' },
-  { file: 'ruby_questions.json', title: 'Ruby', color: '#ff0000' }
+  { file: 'ruby_questions.json', title: 'Ruby', color: '#ff0000' },
+  { file: 'html_questions.json', title: 'HTML', color: '#00ff00' },
+  { file: 'js_questions.json', title: 'JavaScript', color: '#0000ff' }
 ].each do |attributes|
   category = Category.find_or_create_by! attributes.slice(:title, :color)
 

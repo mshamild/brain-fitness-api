@@ -1,0 +1,1205 @@
+[
+  {
+    "question": "When does the ondragleave mouse event get fired in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "It gets fired when an element has been dragged to a valid drop target."
+      },
+      {
+        "value": true,
+        "text": "It gets fired when an element leaves a valid drop target."
+      },
+      {
+        "value": false,
+        "text": "It gets fired at the end of a drag operation."
+      },
+      {
+        "value": false,
+        "text": "It gets fired while an element is being dragged."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following statements regarding WebSockets is true?",
+    "answers": [
+      {
+        "value": false,
+        "text": "It communicates with the server with only the data required by the application."
+      },
+      {
+        "value": false,
+        "text": "It lowers the latency of connections for interactive web applications."
+      },
+      {
+        "value": false,
+        "text": "It scales better and consumes less server resources than HTTP AJAX/long-poll."
+      },
+      {
+        "value": true,
+        "text": "All of the above."
+      }
+    ]
+  },
+  {
+    "question": "Assuming that some text needs to be written on an HTML5 canvas, select a replacement for the commented line below:\n<canvas id=\"e\" width=\"200\" height=\"200\"></canvas>\n<script>\n  var canvas = document.getElementById(\"e\");\n  //insert code here\n  context.fillStyle = \"blue\";\n  context.font = \"bold 16px Arial\";\n  context.fillText(\"Zibri\", 100, 100);\n</script>",
+    "answers": [
+      {
+        "value": false,
+        "text": "var context = canvas.getContext();"
+      },
+      {
+        "value": false,
+        "text": "var context = canvas.getElementById(\"context\");"
+      },
+      {
+        "value": true,
+        "text": "var context = canvas.getContext(\"2d\");"
+      },
+      {
+        "value": false,
+        "text": "var context = canvas.getElementById(\"2d\");"
+      }
+    ]
+  },
+  {
+    "question": "What is the role of the <dfn> element in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "It is used to define important text."
+      },
+      {
+        "value": false,
+        "text": "It is used to define computer code text."
+      },
+      {
+        "value": false,
+        "text": "It is used to define sample computer code."
+      },
+      {
+        "value": true,
+        "text": "It is used to define a definition term."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a possible way to get fullscreen video played from the browser using HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "<object> <param name=\"allowFullScreen\" value=\"true\" />"
+      },
+      {
+        "value": false,
+        "text": "<video allowFullScreen=\"true\">"
+      },
+      {
+        "value": true,
+        "text": "<video height=\"100%\" width=\"100%\">"
+      },
+      {
+        "value": false,
+        "text": "None of these."
+      }
+    ]
+  },
+  {
+    "question": "Consider the following items of a <select> list:\n<option value=\"89\">Item 1</option>\n<option value=\"90\">Item 2</option>\nWhich of the following values would be passed on by clicking the submit button on selecting Item 2 from the list?",
+    "answers": [
+      {
+        "value": false,
+        "text": "89"
+      },
+      {
+        "value": true,
+        "text": "90"
+      },
+      {
+        "value": false,
+        "text": "Item 1"
+      },
+      {
+        "value": false,
+        "text": "Item 2"
+      }
+    ]
+  },
+  {
+    "question": "The following are valid use cases of client file/directory access in HTML5, except:",
+    "answers": [
+      {
+        "value": false,
+        "text": "Drag and drop files from the desktop"
+      },
+      {
+        "value": false,
+        "text": "Full file system access"
+      },
+      {
+        "value": true,
+        "text": "Use of the HTML5 File API"
+      },
+      {
+        "value": false,
+        "text": "Use of files as HTML5 input types"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are the valid values of the <a> element's target attribute in HTML5?",
+    "answers": [
+      {
+        "value": true,
+        "text": "_blank"
+      },
+      {
+        "value": false,
+        "text": "_self"
+      },
+      {
+        "value": false,
+        "text": "_top"
+      },
+      {
+        "value": false,
+        "text": "_bottom"
+      }
+    ]
+  },
+  {
+    "question": "How does a button created by the <button> tag differ from the one created by an <input> tag?",
+    "answers": [
+      {
+        "value": false,
+        "text": "An input tag button can be a reset button too."
+      },
+      {
+        "value": false,
+        "text": "A button tag button can be a reset button too."
+      },
+      {
+        "value": false,
+        "text": "An input tag button can include images as well."
+      },
+      {
+        "value": true,
+        "text": "A button tag can include images as well."
+      }
+    ]
+  },
+  {
+    "question": "Which method of HTMLCanvasElement is used to represent image of Canvas Element?",
+    "answers": [
+      {
+        "value": true,
+        "text": "toDataURL()"
+      },
+      {
+        "value": false,
+        "text": "saveAsImage()"
+      },
+      {
+        "value": false,
+        "text": "saveFile()"
+      },
+      {
+        "value": false,
+        "text": "exportImage()"
+      }
+    ]
+  },
+  {
+    "question": "Can we store JavaScript Objects directly into localStorage?",
+    "answers": [
+      {
+        "value": false,
+        "text": "Yes"
+      },
+      {
+        "value": true,
+        "text": "No"
+      }
+    ]
+  },
+  {
+    "question": "Once an application is offline, it remains cached until the following happens (select all that apply):",
+    "answers": [
+      {
+        "value": false,
+        "text": "The application cache is programmatically updated."
+      },
+      {
+        "value": false,
+        "text": "The application cache gets automatically cleared by the browser."
+      },
+      {
+        "value": true,
+        "text": "The manifest file is modified."
+      },
+      {
+        "value": false,
+        "text": "The user clears their browser's data storage for the site."
+      }
+    ]
+  },
+  {
+    "question": "What is the internal/wire format of input type=\"date\" in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "DD-MM-YYYY"
+      },
+      {
+        "value": true,
+        "text": "YYYY-MM-DD"
+      },
+      {
+        "value": false,
+        "text": "MM-DD-YYYY"
+      },
+      {
+        "value": false,
+        "text": "YYYY-DD-MM"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is not a valid syntax for the <link> element in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "<link rel=\"icon\" href=\"abc.jpg\" sizes=\"16x16\">"
+      },
+      {
+        "value": true,
+        "text": "<link rev=\"stylesheet\" href=\"abc.css\" type=\"text/css\" target=\"_parent\">"
+      },
+      {
+        "value": false,
+        "text": "<link rel=\"alternate\" type=\"application/pdf\" hreflang=\"fr\"  href=\"manual-fr\">"
+      }
+    ]
+  },
+  {
+    "question": "What does P2P streaming mean when web applications establish a P2P HTTP connection using HTML?",
+    "answers": [
+      {
+        "value": true,
+        "text": "It means that streaming of a voice/video frame is direct, without using any server between them."
+      },
+      {
+        "value": false,
+        "text": "It means that streaming of a voice/video frame is first between one peer to the server then the server to another peer. "
+      },
+      {
+        "value": false,
+        "text": "Communication does not rely on a shared relay server in the network."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following will detect when an HTML5 video has finished playing?",
+    "answers": [
+      {
+        "value": true,
+        "text": "var video = document.getElementsByTagName('video')[0];\n    video.onended = function(e) {\n    }"
+      },
+      {
+        "value": false,
+        "text": "var video = document.getElementsByTagName('video')[0];\n    video.onPlayend = function(e) {\n    }"
+      },
+      {
+        "value": false,
+        "text": "var video = document.getElementsByTagName('video')[0];\n    video.onPlayFinish = function(e) {\n    }"
+      },
+      {
+        "value": false,
+        "text": "var video = document.getElementsByTagName('video')[0];\n    video.onPlayBackended = function(e) {\n    }"
+      }
+    ]
+  },
+  {
+    "question": "What is the difference between Server-Sent Events (SSEs) and WebSockets in HTML5?",
+    "answers": [
+      {
+        "value": true,
+        "text": "WebSockets can perform bi-directional (client-server and vice versa) data transfers, while SSEs can only push data to the client/browser."
+      },
+      {
+        "value": false,
+        "text": "SSEs can perform bi-directional (client-server and vice versa) data transfers, while WebSockets can only push data to the client/browser."
+      },
+      {
+        "value": false,
+        "text": "WebSockets and SSEs are functionally equivalent."
+      },
+      {
+        "value": false,
+        "text": "None of these."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following methods can be used to estimate page load times?",
+    "answers": [
+      {
+        "value": false,
+        "text": "Using _gaq.push(['_trackPageLoadTime']) with Google Analytics."
+      },
+      {
+        "value": true,
+        "text": "Using the Navigation Timing JavaScript API."
+      },
+      {
+        "value": false,
+        "text": "Page load times cannot be estimated."
+      },
+      {
+        "value": false,
+        "text": "Using built-in JavaScript methods."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are valid ways to associate custom data with an HTML5 element?",
+    "answers": [
+      {
+        "value": true,
+        "text": "<tr class=\"foo\" data-id-type=\"4\">"
+      },
+      {
+        "value": false,
+        "text": "<tr class=\"foo\" id-type=\"4\">"
+      },
+      {
+        "value": false,
+        "text": "<tr class=\"foo\" data-id_type=\"4\">"
+      },
+      {
+        "value": false,
+        "text": "All of the above."
+      }
+    ]
+  },
+  {
+    "question": "How can an HTML5 canvas size be changed so that it fits the entire window?",
+    "answers": [
+      {
+        "value": false,
+        "text": "#myCanvas {height: 100%; width: 100%;}"
+      },
+      {
+        "value": true,
+        "text": "<script type=\"text/javascript\">\n\n        function resize_canvas(){\n\n            canvas = document.getElementById(\"canvas\");\n            if (canvas.width  < window.innerWidth)\n            {\n                canvas.width  = window.innerWidth;\n            }\n\n            if (canvas.height < window.innerHeight)\n            {\n                canvas.height = window.innerHeight;\n            }\n        }\n    </script>"
+      },
+      {
+        "value": false,
+        "text": "It depends upon the complexity of the canvas, and the frequency of redraws."
+      },
+      {
+        "value": false,
+        "text": "Calling the JavaScript getWidth() function."
+      }
+    ]
+  },
+  {
+    "question": "Which method of the HTMLCanvasElement is used to represent an image of a canvas element?",
+    "answers": [
+      {
+        "value": true,
+        "text": "toDataURL"
+      },
+      {
+        "value": false,
+        "text": "toImageURL"
+      },
+      {
+        "value": false,
+        "text": "saveAsPNG"
+      },
+      {
+        "value": false,
+        "text": "saveAsJPEG"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to store an object in localStorage?\n\nvar obj = { 'one': 1, 'two': 2, 'three': 3 };",
+    "answers": [
+      {
+        "value": false,
+        "text": "localStorage.setItem('obj', obj);"
+      },
+      {
+        "value": true,
+        "text": "localStorage.setItem('obj', JSON.stringify(obj));"
+      },
+      {
+        "value": false,
+        "text": "localStorage.setItem('testObject', JSON.parse(testObject));"
+      },
+      {
+        "value": false,
+        "text": "localStorage.setItem(obj);"
+      }
+    ]
+  },
+  {
+    "question": "Assuming that some text needs to be written on an HTML5 canvas, select a replacement for the commented line below:\n\n<canvas id=\"e\" width=\"200\" height=\"200\"></canvas>\n<script>\n  var canvas = document.getElementById(\"e\");\n  //insert code here\n  context.fillStyle = \"blue\";\n  context.font = \"bold 16px Arial\";\n  context.fillText(\"Zibri\", 100, 100);\n</script>",
+    "answers": [
+      {
+        "value": false,
+        "text": "var context = canvas.getContext();"
+      },
+      {
+        "value": false,
+        "text": "var context = canvas.getElementById(\"context\");"
+      },
+      {
+        "value": true,
+        "text": "var context = canvas.getContext(\"2d\");"
+      },
+      {
+        "value": false,
+        "text": "var context = canvas.getElementById(\"2d\");"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following code is used to prevent Webkit spin buttons from appearing on web pages?",
+    "answers": [
+      {
+        "value": false,
+        "text": "input[type=number]::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n    }"
+      },
+      {
+        "value": true,
+        "text": "input[type=number]::-webkit-inner-spin-button,\n  input[type=number]::-webkit-outer-spin-button {\n    -webkit-appearance: none;\n    margin: 0;\n   }"
+      },
+      {
+        "value": false,
+        "text": "noindex:-o-prefocus,\n   input[type=number] {\n    padding-right: 1.2em;\n    }"
+      },
+      {
+        "value": false,
+        "text": "input[type=number]::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n   padding-right: 1.2em;\n    }"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following will restrict an input element to accept only numerical values in a text field?",
+    "answers": [
+      {
+        "value": true,
+        "text": "<input type=\"text\" pattern=\"[0-9]*\" />"
+      },
+      {
+        "value": false,
+        "text": "<input type=\"number\" />"
+      },
+      {
+        "value": false,
+        "text": "<input type=\"text\" pattern=\"\\d*\"/>"
+      },
+      {
+        "value": false,
+        "text": "<input type=\"text\" pattern=\"number\"/>"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to display a PDF file in the browser?",
+    "answers": [
+      {
+        "value": true,
+        "text": "<object type=\"application/pdf\" data=\"filename.pdf\" width=\"100%\" height=\"100%\"/>"
+      },
+      {
+        "value": false,
+        "text": "<object type=\"application/pdf\" id=\"filename.pdf\" width=\"100%\" height=\"100%\"/>"
+      },
+      {
+        "value": false,
+        "text": "<input type=\"application/pdf\" data=\"filename.pdf\" width=\"100%\" height=\"100%\"/>"
+      },
+      {
+        "value": false,
+        "text": "<input type=\"application/pdf\" src=\"filename.pdf\" width=\"100%\" height=\"100%\"/>"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the best method to detect HTML5 Canvas support in web browsers?",
+    "answers": [
+      {
+        "value": false,
+        "text": "isCanvasSupported()"
+      },
+      {
+        "value": false,
+        "text": "!!document.createElement(\"canvas\")"
+      },
+      {
+        "value": false,
+        "text": "!isCanvasSupported() "
+      },
+      {
+        "value": true,
+        "text": "!!window.HTMLCanvasElement"
+      }
+    ]
+  },
+  {
+    "question": "Which media event is triggered when there is an error in fetching media data in HTML5?",
+    "answers": [
+      {
+        "value": true,
+        "text": "onstalled"
+      },
+      {
+        "value": false,
+        "text": "onwaiting"
+      },
+      {
+        "value": false,
+        "text": "onsuspend"
+      },
+      {
+        "value": false,
+        "text": "oninvalid"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to check browser support for WebSocket?",
+    "answers": [
+      {
+        "value": false,
+        "text": "console.log(WebSocket ? 'supported' : 'not supported');"
+      },
+      {
+        "value": true,
+        "text": "console.log(window.WebSocket ? 'supported' : 'not supported');"
+      },
+      {
+        "value": false,
+        "text": "console.log(window[WebSocket] ? 'supported' : 'not supported');"
+      },
+      {
+        "value": false,
+        "text": "console.log(window['WebSocket'] ? 'supported' : 'not supported');"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following video file formats are currently supported by the <video> element of HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "CCTV"
+      },
+      {
+        "value": true,
+        "text": "MPEG 4"
+      },
+      {
+        "value": false,
+        "text": "Ogg"
+      },
+      {
+        "value": false,
+        "text": "3GPP"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following shows correct use of client-side data validation in HTML5, on username and password fields in particular?",
+    "answers": [
+      {
+        "value": true,
+        "text": "<input name=\"username\"  required />\n<input name=\"pass\"  type=\"password\" required/>"
+      },
+      {
+        "value": false,
+        "text": "<input name=\"username\"  validate=\"true\"/>\n<input name=\"pass\"  type=\"password\" validate=\"true\"/>"
+      },
+      {
+        "value": false,
+        "text": "<input name=\"username\"  validate/>\n<input name=\"pass\"  type=\"password\" validate/>"
+      },
+      {
+        "value": false,
+        "text": "There is no way to implement client-side validation for the username and password fields in HTML5."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is not a valid attribute for the <video> element in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "controls"
+      },
+      {
+        "value": false,
+        "text": "autoplay"
+      },
+      {
+        "value": true,
+        "text": "disabled"
+      },
+      {
+        "value": false,
+        "text": "preload"
+      }
+    ]
+  },
+  {
+    "question": "Consider the following JavaScript code:\n\nvar c=document.getElementById(\"myCanvas\");\nvar ctx=c.getContext(\"2d\");\nvar img=document.getElementById(\"img\");\n\nWhich method will correctly draw an image in the x=10, y=10 position?",
+    "answers": [
+      {
+        "value": true,
+        "text": "ctx.drawImage(img,10,10);"
+      },
+      {
+        "value": false,
+        "text": "context.drawImage(img,20,10,10,10);"
+      },
+      {
+        "value": false,
+        "text": "context.drawImage(img,10,20,10,10,20,20,10,10);"
+      },
+      {
+        "value": false,
+        "text": "All of these"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to store an object in a localStorage?",
+    "answers": [
+      {
+        "value": true,
+        "text": "localStorage.setItem('testObject', JSON.stringify(testObject))"
+      },
+      {
+        "value": false,
+        "text": "localStorage.setItem('testObject', testObject)"
+      },
+      {
+        "value": false,
+        "text": "localStorage.add('testObject', testObject)"
+      },
+      {
+        "value": false,
+        "text": "localStorage.addItem('testObject', testObject)"
+      }
+    ]
+  },
+  {
+    "question": "How can audio files be played in HTML5?\n\nvar sound = new Audio(\"file.wav\");",
+    "answers": [
+      {
+        "value": false,
+        "text": "sound.begin();"
+      },
+      {
+        "value": false,
+        "text": "sound.resume();"
+      },
+      {
+        "value": false,
+        "text": "sound.start();"
+      },
+      {
+        "value": true,
+        "text": "sound.play();"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the correct way to play an audio file in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "var snd = new Audio(\"file.wav\");\nsnd.play();"
+      },
+      {
+        "value": true,
+        "text": "<audio controls>\n  <source src=\"file.ogg\" type=\"audio/ogg\">\n  <source src=\"file.mp3\" type=\"audio/mpeg\">\n</audio>"
+      },
+      {
+        "value": false,
+        "text": "<source src=\"file.mp3\" type=\"audio/mpeg\">"
+      },
+      {
+        "value": false,
+        "text": "All of these."
+      }
+    ]
+  },
+  {
+    "question": "Which HTML5 doctype declarations are correct?",
+    "answers": [
+      {
+        "value": false,
+        "text": "<!doctype html>"
+      },
+      {
+        "value": true,
+        "text": "<!DOCTYPE html>"
+      },
+      {
+        "value": false,
+        "text": "<!DOCTYPE HTML5>"
+      },
+      {
+        "value": false,
+        "text": "<!DOCTYPE HTML>"
+      }
+    ]
+  },
+  {
+    "question": "You want to create a link for your website allowing users to email the webmaster. How will you implement this if the webmaster's email address is webmaster@xcompany.com?",
+    "answers": [
+      {
+        "value": true,
+        "text": "<a href=\"mailto:webmaster@xcompany.com\">webmaster</a>"
+      },
+      {
+        "value": false,
+        "text": "<a href=\"webmaster@xcompany.com\">webmaster</a>"
+      },
+      {
+        "value": false,
+        "text": "<a http=\"mail:webmaster@xcompany.com\">webmaster</a>"
+      },
+      {
+        "value": false,
+        "text": "<mail http=\"send:webmaster@xcompany.com\">webmaster</mail>"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are sample use cases for HTML5 web workers?",
+    "answers": [
+      {
+        "value": false,
+        "text": "Polling URLs in background"
+      },
+      {
+        "value": false,
+        "text": "Syntax highlighting without blocking code editing capabilities in online IDEs"
+      },
+      {
+        "value": false,
+        "text": "Motion tracking input in realtime with a video element"
+      },
+      {
+        "value": true,
+        "text": "All of these."
+      }
+    ]
+  },
+  {
+    "question": "Which media event will be fired when a media resource element suddenly becomes empty?",
+    "answers": [
+      {
+        "value": false,
+        "text": "onerror"
+      },
+      {
+        "value": false,
+        "text": "onended"
+      },
+      {
+        "value": false,
+        "text": "onloadeddata"
+      },
+      {
+        "value": true,
+        "text": "onemptied"
+      }
+    ]
+  },
+  {
+    "question": "You are writing the code for an HTML form and you want the browser to retain the form's input values. That is, if a user submits the form and presses the browser's back button, the fully populated form is displayed instead of a blank form. Which of the following HTML 5 attributes will you use?",
+    "answers": [
+      {
+        "value": false,
+        "text": "accept"
+      },
+      {
+        "value": false,
+        "text": "autofocus"
+      },
+      {
+        "value": true,
+        "text": "autocomplete"
+      },
+      {
+        "value": false,
+        "text": "formtarget"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following HTML5 features is capable of taking a screenshot of a web page?",
+    "answers": [
+      {
+        "value": false,
+        "text": "Server-Sent Events"
+      },
+      {
+        "value": false,
+        "text": "SVG"
+      },
+      {
+        "value": true,
+        "text": "Canvas"
+      },
+      {
+        "value": false,
+        "text": "Web Workers"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are true about the ARIA role attribute in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "Every HTML element can have an ARIA role attribute specified."
+      },
+      {
+        "value": false,
+        "text": "Every HTML element is required have an ARIA role attribute specified."
+      },
+      {
+        "value": true,
+        "text": "The attribute must have a value that is a set of space-separated tokens representing the various WAI-ARIA roles that the element belongs to."
+      },
+      {
+        "value": false,
+        "text": "There is no ARIA attribute called \"role\"."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following video tag attributes are invalid in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "play"
+      },
+      {
+        "value": false,
+        "text": "loop"
+      },
+      {
+        "value": false,
+        "text": "mute"
+      },
+      {
+        "value": true,
+        "text": "pause"
+      }
+    ]
+  },
+  {
+    "question": "True or False:\n\nHTML5 Canvas can be used to create images.",
+    "answers": [
+      {
+        "value": true,
+        "text": "True"
+      },
+      {
+        "value": false,
+        "text": "False"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following statements are correct with regard to the <hr> and <br> elements of HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "The <hr> element acts in the same way as the tab key and the <br> element acts in the same way as the shift key."
+      },
+      {
+        "value": true,
+        "text": "The <hr> element is used to insert the horizontal line within the document and the <br> element is used to insert a single line break."
+      },
+      {
+        "value": false,
+        "text": "The <hr> element is used to put a line across the page and the <br> element acts in the same way as a return/enter key press."
+      }
+    ]
+  },
+  {
+    "question": "The following link is placed on an HTML webpage:\n\n<a href=\"http://msdn.com/\" target=\"_blank\"> MSDN </a>\n\nWhat can be inferred from it?",
+    "answers": [
+      {
+        "value": false,
+        "text": "It will open the site msdn.com in the same window."
+      },
+      {
+        "value": true,
+        "text": "It will open the site msdn.com in a new window."
+      },
+      {
+        "value": false,
+        "text": "It will open the site msdn.com in a frame below."
+      },
+      {
+        "value": false,
+        "text": "It will not be clickable as it is not formed correctly."
+      }
+    ]
+  },
+  {
+    "question": "Which following are valid default values for the <input type=\"date\"> HTML5 element?",
+    "answers": [
+      {
+        "value": false,
+        "text": "now"
+      },
+      {
+        "value": true,
+        "text": "2013-05-30"
+      },
+      {
+        "value": false,
+        "text": "2013-30-05"
+      },
+      {
+        "value": false,
+        "text": "today"
+      }
+    ]
+  },
+  {
+    "question": "True or false:\n\nJavaScript objects can be stored directly into localStorage.",
+    "answers": [
+      {
+        "value": false,
+        "text": "True"
+      },
+      {
+        "value": true,
+        "text": "False"
+      }
+    ]
+  },
+  {
+    "question": "What is the limit to the length of HTML attributes?",
+    "answers": [
+      {
+        "value": false,
+        "text": "65536"
+      },
+      {
+        "value": false,
+        "text": "64"
+      },
+      {
+        "value": true,
+        "text": "There is no limit."
+      },
+      {
+        "value": false,
+        "text": "None of these."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following examples contain invalid implementations of the ampersand character in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": " foo & bar"
+      },
+      {
+        "value": false,
+        "text": "foo &0 bar"
+      },
+      {
+        "value": true,
+        "text": "foo &0; bar"
+      },
+      {
+        "value": false,
+        "text": "foo&&& bar"
+      }
+    ]
+  },
+  {
+    "question": "Which is the standard method for clearing a canvas?",
+    "answers": [
+      {
+        "value": true,
+        "text": "context.clearRect ( x , y , w , h );"
+      },
+      {
+        "value": false,
+        "text": "canvas.width = canvas.width;"
+      },
+      {
+        "value": false,
+        "text": "context.clear();"
+      },
+      {
+        "value": false,
+        "text": "All of these."
+      }
+    ]
+  },
+  {
+    "question": "Which of the following <link> attributes are not supported in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "sizes"
+      },
+      {
+        "value": true,
+        "text": "rev"
+      },
+      {
+        "value": false,
+        "text": "rel"
+      },
+      {
+        "value": false,
+        "text": "charset"
+      }
+    ]
+  },
+  {
+    "question": "In HTML5, which of the following is not a valid value for the type attribute when used with the <command> tag shown below?\n\n<command type=\"?\">Click Me!</command>",
+    "answers": [
+      {
+        "value": true,
+        "text": "button"
+      },
+      {
+        "value": false,
+        "text": "command"
+      },
+      {
+        "value": false,
+        "text": "checkbox"
+      },
+      {
+        "value": false,
+        "text": "radio"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following attributes gets hidden when the user clicks on the element that it modifies? (Eg. hint text inside the fields of web forms)",
+    "answers": [
+      {
+        "value": false,
+        "text": "autocomplete"
+      },
+      {
+        "value": false,
+        "text": "autofocus"
+      },
+      {
+        "value": true,
+        "text": "placeholder"
+      },
+      {
+        "value": false,
+        "text": "formnovalidate"
+      }
+    ]
+  },
+  {
+    "question": "Which event is fired when an element loses its focus in an HTML5 document?",
+    "answers": [
+      {
+        "value": false,
+        "text": "onfocus"
+      },
+      {
+        "value": false,
+        "text": "onload"
+      },
+      {
+        "value": true,
+        "text": "onblur"
+      },
+      {
+        "value": false,
+        "text": "onselect"
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the <q> element in HTML5?",
+    "answers": [
+      {
+        "value": false,
+        "text": "It is used to define the start of a term in a definition list."
+      },
+      {
+        "value": false,
+        "text": "It is used to define attribute values for one or more columns in a table."
+      },
+      {
+        "value": true,
+        "text": "It is used to define the start of a short quotation."
+      },
+      {
+        "value": false,
+        "text": "It is used to define what to show browsers that do not support the ruby element."
+      }
+    ]
+  },
+  {
+    "question": "Consider the following items of a <select> list:\n\n<option value=\"89\">Item 1</option>\n<option value=\"90\">Item 2</option>\n\nWhich of the following values would be passed on by clicking the submit button on selecting Item 2 from the list?",
+    "answers": [
+      {
+        "value": false,
+        "text": "89"
+      },
+      {
+        "value": true,
+        "text": "90"
+      },
+      {
+        "value": false,
+        "text": "Item 1"
+      },
+      {
+        "value": false,
+        "text": "Item 2"
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is the best method to store an array in localStorage?",
+    "answers": [
+      {
+        "value": false,
+        "text": "var localStorage[names]=new Array();\nlocalStorage.names[0]=prompt(\"New member name?\");"
+      },
+      {
+        "value": true,
+        "text": "var names = [];\nnames[0] = prompt(\"New member name?\");\nlocalStorage[\"names\"] = JSON.stringify(names);\nvar storedNames = JSON.parse(localStorage[\"names\"]);"
+      },
+      {
+        "value": false,
+        "text": "Storage.prototype.setObj = function(key, obj) {\n    return this.setItem(key, JSON.stringify(obj))\n}\nStorage.prototype.getObj = function(key) {\n    return JSON.parse(this.getItem(key))\n}"
+      },
+      {
+        "value": false,
+        "text": "localStorage.setItem('names_length', names.length);\nlocalStorage.setItem('names_0', names[0]);\nlocalStorage.setItem('names_1', names[1]);\nlocalStorage.setItem('names_' + n, names[n]);"
+      }
+    ]
+  }
+]
