@@ -22,6 +22,6 @@ class GameCreator::RoundCategoriesBuilder
   end
 
   def round_questions_for(category)
-    RoundQuestionsBuilder.call(category: category)
+    GameCreator::RoundQuestionsBuilder.call(category: category).round_questions
   end
 end

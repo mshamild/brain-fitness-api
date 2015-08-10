@@ -8,5 +8,6 @@ class GameCreator
   private
 
   def create_game!
+    GameBuilder.call.game.tap(&:save!)
   end
 end

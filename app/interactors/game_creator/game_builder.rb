@@ -8,6 +8,10 @@ class GameCreator::GameBuilder
   private
 
   def build_game
-    Game.new
+    Game.new(rounds: new_rounds)
+  end
+
+  def new_rounds
+    RoundsBuilder.call.rounds
   end
 end

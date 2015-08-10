@@ -1,4 +1,4 @@
-class GameCreator::RoundBuilder
+class GameCreator::RoundsBuilder
   include Interactor
 
   def call
@@ -14,6 +14,6 @@ class GameCreator::RoundBuilder
   end
 
   def new_round_categories
-    RoundCategoriesBuilder.call.round_categories
+    GameCreator::RoundCategoriesBuilder.call.round_categories
   end
 end

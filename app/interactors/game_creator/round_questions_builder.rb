@@ -1,8 +1,8 @@
-class GameCreator::RoundQuestionBuilder
+class GameCreator::RoundQuestionsBuilder
   include Interactor
 
   def call
-    build_round_questions
+    context[:round_questions] = build_round_questions
   end
 
   private
