@@ -1,4 +1,6 @@
 class Question < ActiveRecord::Base
+  include RandomRecords
+
   VARIANTS_COUNT = 4
 
   belongs_to :category

@@ -1,7 +1,7 @@
 class Game < ActiveRecord::Base
-  ROUNDS = 6
+  ROUNDS_COUNT = 6
 
   has_many :rounds, inverse_of: :game
 
-  validates :rounds, length: { is: 6 }
+  validates :rounds, length: { is: ROUNDS_COUNT }
 end
