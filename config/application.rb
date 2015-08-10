@@ -30,3 +30,5 @@ module RailsBaseApi
     config.host = 'localhost:5000'
   end
 end
+
+ActiveSupport::JSON::Encoding.time_precision = 0

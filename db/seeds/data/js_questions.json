@@ -4,19 +4,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x.splice(0);"
+        "text": "x.splice(0);"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)x.splice(0, 1);"
+        "text": "x.splice(0, 1);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x.pop();"
+        "text": "x.pop();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x.unshift(0);"
+        "text": "x.unshift(0);"
       }
     ]
   },
@@ -25,19 +25,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"undefined\""
+        "text": "\"undefined\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"array\""
+        "text": "\"array\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"object\""
+        "text": "\"object\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"string\""
+        "text": "\"string\""
       }
     ]
   },
@@ -46,23 +46,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\\\\ comment"
+        "text": "\\\\ comment"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)// comment"
+        "text": "// comment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)# comment"
+        "text": "# comment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<!-- comment -->"
-      },
-      {
-        "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)-- comment"
+        "text": "<!-- comment -->"
       }
     ]
   },
@@ -71,19 +67,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Global Local"
+        "text": "Global Local"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined Local"
+        "text": "undefined Local"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Global Global"
+        "text": "Global Global"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Local Local"
+        "text": "Local Local"
       }
     ]
   },
@@ -92,23 +88,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)array"
+        "text": "array"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)number"
+        "text": "number"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)object"
+        "text": "object"
       }
     ]
   },
@@ -117,19 +113,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)subjective"
+        "text": "subjective"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)object based"
+        "text": "object based"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)objective"
+        "text": "objective"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)evil"
+        "text": "evil"
       }
     ]
   },
@@ -138,19 +134,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)argument"
+        "text": "argument"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)prototype"
+        "text": "prototype"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)sibling"
+        "text": "sibling"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)parent"
+        "text": "parent"
       }
     ]
   },
@@ -159,23 +155,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"number\""
+        "text": "\"number\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"double\""
+        "text": "\"double\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"object\""
+        "text": "\"object\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"integer\""
+        "text": "\"integer\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"nan\""
+        "text": "\"nan\""
       }
     ]
   },
@@ -184,23 +180,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Function won't work due to incorrect syntax"
+        "text": "Function won't work due to incorrect syntax"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Value will be null"
+        "text": "Value will be null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Function will end up in infinite loop"
+        "text": "Function will end up in infinite loop"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       }
     ]
   },
@@ -209,23 +205,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"name\", \"email\", \"sendmail\""
+        "text": "\"name\", \"email\", \"sendmail\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"baz\", \"fiz@example.com\", null"
+        "text": "\"baz\", \"fiz@example.com\", null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"name\", \"email\""
+        "text": "\"name\", \"email\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"baz\", \"fiz@example.com\", undefined"
+        "text": "\"baz\", \"fiz@example.com\", undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Type Error"
+        "text": "Type Error"
       }
     ]
   },
@@ -234,23 +230,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError: Object -- has no method 'bar'"
+        "text": "TypeError: Object -- has no method 'bar'"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"Hi\""
+        "text": "\"Hi\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"function () { this.hello = \"Hi\"; return this; }\""
+        "text": "\"function () { this.hello = \"Hi\"; return this; }\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError: Cannot call method 'bar' of undefined"
+        "text": "TypeError: Cannot call method 'bar' of undefined"
       }
     ]
   },
@@ -259,19 +255,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0/0"
+        "text": "0/0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Number(\"foo\")"
+        "text": "Number(\"foo\")"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of the answers"
+        "text": "All of the answers"
       }
     ]
   },
@@ -280,11 +276,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)True"
+        "text": "True"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)False"
+        "text": "False"
       }
     ]
   },
@@ -293,19 +289,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10 10"
+        "text": "10 10"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5 10"
+        "text": "5 10"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined 10"
+        "text": "undefined 10"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)nothing. Throws ReferenceError: x is not defined"
+        "text": "nothing. Throws ReferenceError: x is not defined"
       }
     ]
   },
@@ -314,15 +310,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Infinity"
+        "text": "Infinity"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       }
     ]
   },
@@ -331,19 +327,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10"
+        "text": "10"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -352,19 +348,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"\""
+        "text": "\"\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"b\""
+        "text": "\"b\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"a\""
+        "text": "\"a\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error: \"\" is not a boolean"
+        "text": "Error: \"\" is not a boolean"
       }
     ]
   },
@@ -373,19 +369,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"null\""
+        "text": "\"null\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"object\""
+        "text": "\"object\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -394,15 +390,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)equal to the number of properties in that object"
+        "text": "equal to the number of properties in that object"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)equal to the highest index of that object"
+        "text": "equal to the highest index of that object"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)equal to the highest index of that object + 1"
+        "text": "equal to the highest index of that object + 1"
       }
     ]
   },
@@ -411,23 +407,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)[2, 3, 4, 5, 6]"
+        "text": "[2, 3, 4, 5, 6]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[1, 2, 3, 4, 5]"
+        "text": "[1, 2, 3, 4, 5]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[undefined, 1, 2, 3, 4, 5]"
+        "text": "[undefined, 1, 2, 3, 4, 5]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[undefined, 2, 3, 4, 5, 6]"
+        "text": "[undefined, 2, 3, 4, 5, 6]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[6, 1, 2, 3, 4, 5]"
+        "text": "[6, 1, 2, 3, 4, 5]"
       }
     ]
   },
@@ -436,19 +432,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)It does not exist in JavaScript"
+        "text": "It does not exist in JavaScript"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)It catches any case clauses not caught by case statements within a switch statement"
+        "text": "It catches any case clauses not caught by case statements within a switch statement"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)It sets up one variable to check against multiple values"
+        "text": "It sets up one variable to check against multiple values"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)It branches program logic based on the value of a condition"
+        "text": "It branches program logic based on the value of a condition"
       }
     ]
   },
@@ -457,19 +453,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)destroy()"
+        "text": "destroy()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)delete()"
+        "text": "delete()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)remove()"
+        "text": "remove()"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)replace()"
+        "text": "replace()"
       }
     ]
   },
@@ -478,23 +474,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'1'"
+        "text": "'1'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -503,19 +499,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false false"
+        "text": "false false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true false"
+        "text": "true false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false true"
+        "text": "false true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true true"
+        "text": "true true"
       }
     ]
   },
@@ -524,23 +520,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"string\""
+        "text": "\"string\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"[object String]\""
+        "text": "\"[object String]\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"undefined\""
+        "text": "\"undefined\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"character\""
+        "text": "\"character\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws error \"ReferenceError: x is not defined\""
+        "text": "Throws error \"ReferenceError: x is not defined\""
       }
     ]
   },
@@ -549,11 +545,11 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Yes, accessing a character offset from a (non-empty) string will yield a value of type \"char\"."
+        "text": "Yes, accessing a character offset from a (non-empty) string will yield a value of type \"char\"."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)No, there is only type \"string\" for characters."
+        "text": "No, there is only type \"string\" for characters."
       }
     ]
   },
@@ -562,19 +558,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Evaluate any string expression in stringVar"
+        "text": "Evaluate any string expression in stringVar"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Alters stringVar, changes all letters to uppercase"
+        "text": "Alters stringVar, changes all letters to uppercase"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Return a copy of stringVar with all letters in uppercase"
+        "text": "Return a copy of stringVar with all letters in uppercase"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Return the number of characters in the stringVar variable"
+        "text": "Return the number of characters in the stringVar variable"
       }
     ]
   },
@@ -583,19 +579,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var obj = {     prop1: 'property 1',     prop2: 'property 2' };"
+        "text": "var obj = {     prop1: 'property 1',     prop2: 'property 2' };"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var obj = [ \"property 1\", \"property 2\" ]"
+        "text": "var obj = [ \"property 1\", \"property 2\" ]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var obj = new Object() {      this.prop1 = 'property 1';      this.prop2 = 'property 2'; }"
+        "text": "var obj = new Object() {      this.prop1 = 'property 1';      this.prop2 = 'property 2'; }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var obj = [ {prop1: 'property 1', prop2: 'property2'} ]"
+        "text": "var obj = [ {prop1: 'property 1', prop2: 'property2'} ]"
       }
     ]
   },
@@ -604,19 +600,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)There is no bug. The loop will run correctly."
+        "text": "There is no bug. The loop will run correctly."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The inner loop resets the outer for-loop, leaving it a fixed position each time, causing an infinite loop (hint: no block scope)."
+        "text": "The inner loop resets the outer for-loop, leaving it a fixed position each time, causing an infinite loop (hint: no block scope)."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Uncaught SyntaxError."
+        "text": "Uncaught SyntaxError."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The outer-loop finishes after the first iteration due to a \"bug\" that unfortunately is part of the ECMAScript specification."
+        "text": "The outer-loop finishes after the first iteration due to a \"bug\" that unfortunately is part of the ECMAScript specification."
       }
     ]
   },
@@ -625,19 +621,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)objects"
+        "text": "objects"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)in the global scope"
+        "text": "in the global scope"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)operators"
+        "text": "operators"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)loops"
+        "text": "loops"
       }
     ]
   },
@@ -646,23 +642,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)data.substr(0);"
+        "text": "data.substr(0);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)data.slice(1)"
+        "text": "data.slice(1)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)data.charAt(1);"
+        "text": "data.charAt(1);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)data.substring(1);"
+        "text": "data.substring(1);"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)data.charAt(0);"
+        "text": "data.charAt(0);"
       }
     ]
   },
@@ -671,19 +667,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Literals"
+        "text": "Literals"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Reserved words"
+        "text": "Reserved words"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Identifiers"
+        "text": "Identifiers"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Variables"
+        "text": "Variables"
       }
     ]
   },
@@ -692,15 +688,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error: type mismatch"
+        "text": "Error: type mismatch"
       }
     ]
   },
@@ -709,15 +705,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Value"
+        "text": "Value"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Pointer"
+        "text": "Pointer"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Reference"
+        "text": "Reference"
       }
     ]
   },
@@ -726,23 +722,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)tinyint"
+        "text": "tinyint"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)negative"
+        "text": "negative"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)positive"
+        "text": "positive"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)boolean"
+        "text": "boolean"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)integer"
+        "text": "integer"
       }
     ]
   },
@@ -751,19 +747,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"!!foo\""
+        "text": "\"!!foo\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -772,19 +768,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined, \"hello\""
+        "text": "undefined, \"hello\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ReferenceError: a is not defined"
+        "text": "ReferenceError: a is not defined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"\", \"hello\""
+        "text": "\"\", \"hello\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ReferenceError: a is not defined, \"hello\""
+        "text": "ReferenceError: a is not defined, \"hello\""
       }
     ]
   },
@@ -793,19 +789,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var anon = func({});"
+        "text": "var anon = func({});"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var anon = function() { };"
+        "text": "var anon = function() { };"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var anon = new Function () { };"
+        "text": "var anon = new Function () { };"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var anon = func() { };"
+        "text": "var anon = func() { };"
       }
     ]
   },
@@ -814,19 +810,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"4\""
+        "text": "\"4\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"22\""
+        "text": "\"22\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)22"
+        "text": "22"
       }
     ]
   },
@@ -835,19 +831,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)break"
+        "text": "break"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)None, these are all valid statements."
+        "text": "None, these are all valid statements."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)throw"
+        "text": "throw"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)continue"
+        "text": "continue"
       }
     ]
   },
@@ -856,23 +852,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)double"
+        "text": "double"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean"
+        "text": "boolean"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)number"
+        "text": "number"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)object"
+        "text": "object"
       }
     ]
   },
@@ -881,19 +877,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)arr.length = value;"
+        "text": "arr.length = value;"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)arr[arr.length] = value;"
+        "text": "arr[arr.length] = value;"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)arr[arr.length()] = value;"
+        "text": "arr[arr.length()] = value;"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)arr[value] = length;"
+        "text": "arr[value] = length;"
       }
     ]
   },
@@ -902,23 +898,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Match text against regular expressions"
+        "text": "Match text against regular expressions"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Switches numerical notation to exponential"
+        "text": "Switches numerical notation to exponential"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Provides access to Windows registry express values"
+        "text": "Provides access to Windows registry express values"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Regulates the expression of variables"
+        "text": "Regulates the expression of variables"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Registers experienced functions with the DOM"
+        "text": "Registers experienced functions with the DOM"
       }
     ]
   },
@@ -927,15 +923,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'234'"
+        "text": "'234'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)9"
+        "text": "9"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'27'"
+        "text": "'27'"
       }
     ]
   },
@@ -944,23 +940,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A default value, like 0"
+        "text": "A default value, like 0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)the first or last value in the array"
+        "text": "the first or last value in the array"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An error to the browser"
+        "text": "An error to the browser"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Moderate"
+        "text": "Moderate"
       }
     ]
   },
@@ -969,19 +965,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var x = [\"blank\",\"blank\",\"blank\"];"
+        "text": "var x = [\"blank\",\"blank\",\"blank\"];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = {\"blank\",\"blank\",\"blank\"};"
+        "text": "var x = {\"blank\",\"blank\",\"blank\"};"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = new Array(1:\"blank\",2:\"blank\",3:\"blank\")"
+        "text": "var x = new Array(1:\"blank\",2:\"blank\",3:\"blank\")"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = array(\"blank\", \"blank\", \"blankâ);"
+        "text": "var x = array(\"blank\", \"blank\", \"blankâ);"
       }
     ]
   },
@@ -990,19 +986,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Is obsolete"
+        "text": "Is obsolete"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Represents a variable"
+        "text": "Represents a variable"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Does not exist in JavaScript"
+        "text": "Does not exist in JavaScript"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Is a very important property"
+        "text": "Is a very important property"
       }
     ]
   },
@@ -1011,19 +1007,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Array.prototype"
+        "text": "Array.prototype"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)String.prototype"
+        "text": "String.prototype"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Number.prototype"
+        "text": "Number.prototype"
       }
     ]
   },
@@ -1032,19 +1028,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Descending alphabetical"
+        "text": "Descending alphabetical"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ASCII ordering"
+        "text": "ASCII ordering"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Ascending alphabetical"
+        "text": "Ascending alphabetical"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       }
     ]
   },
@@ -1053,19 +1049,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)An array with all of the distinct keys from the obj a"
+        "text": "An array with all of the distinct keys from the obj a"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An obj with autowired getters and setters for it's key/values"
+        "text": "An obj with autowired getters and setters for it's key/values"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)none of the above"
+        "text": "none of the above"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A serialized copy of the obj a"
+        "text": "A serialized copy of the obj a"
       }
     ]
   },
@@ -1074,19 +1070,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)if x = 5 then ..."
+        "text": "if x = 5 then ..."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)if (x == 5) { ... }"
+        "text": "if (x == 5) { ... }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)if x = 5 ..."
+        "text": "if x = 5 ..."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)if (x === 5) { ... }"
+        "text": "if (x === 5) { ... }"
       }
     ]
   },
@@ -1095,23 +1091,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error thrown when running the code"
+        "text": "Error thrown when running the code"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)6"
+        "text": "6"
       }
     ]
   },
@@ -1120,23 +1116,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ceil(x, y)"
+        "text": "ceil(x, y)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Math.ceil(x, y)"
+        "text": "Math.ceil(x, y)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)top(x, y)"
+        "text": "top(x, y)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Math.max(x, y)"
+        "text": "Math.max(x, y)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)max(x, y)"
+        "text": "max(x, y)"
       }
     ]
   },
@@ -1145,23 +1141,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"A\""
+        "text": "\"A\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"B\""
+        "text": "\"B\""
       }
     ]
   },
@@ -1170,19 +1166,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)="
+        "text": "="
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)+="
+        "text": "+="
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)%="
+        "text": "%="
       }
     ]
   },
@@ -1191,19 +1187,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)6"
+        "text": "6"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The statement generates an error."
+        "text": "The statement generates an error."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"123\""
+        "text": "\"123\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)15"
+        "text": "15"
       }
     ]
   },
@@ -1212,15 +1208,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x = a : b ? c;"
+        "text": "x = a : b ? c;"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)x = a ? b : c;"
+        "text": "x = a ? b : c;"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x = a ? b , c;"
+        "text": "x = a ? b , c;"
       }
     ]
   },
@@ -1229,19 +1225,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)123"
+        "text": "123"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined. SyntaxError due to illegal position of a reserved word"
+        "text": "undefined. SyntaxError due to illegal position of a reserved word"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)native Function constructor"
+        "text": "native Function constructor"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined. Silent failure."
+        "text": "undefined. Silent failure."
       }
     ]
   },
@@ -1250,11 +1246,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       }
     ]
   },
@@ -1263,19 +1259,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)onmove"
+        "text": "onmove"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)onchange"
+        "text": "onchange"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)onblur"
+        "text": "onblur"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)onclick"
+        "text": "onclick"
       }
     ]
   },
@@ -1284,19 +1280,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)||"
+        "text": "||"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)&"
+        "text": "&"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)!"
+        "text": "!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)&&"
+        "text": "&&"
       }
     ]
   },
@@ -1305,19 +1301,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)=="
+        "text": "=="
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)="
+        "text": "="
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)==="
+        "text": "==="
       }
     ]
   },
@@ -1326,19 +1322,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxErrror"
+        "text": "SyntaxErrror"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"bar\""
+        "text": "\"bar\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError"
+        "text": "TypeError"
       }
     ]
   },
@@ -1347,19 +1343,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = create myConstructor();"
+        "text": "var x = create myConstructor();"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var x = new myConstructor();"
+        "text": "var x = new myConstructor();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myConstructor x = create myConstructor();"
+        "text": "myConstructor x = create myConstructor();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myConstructor x = new myConstructor();"
+        "text": "myConstructor x = new myConstructor();"
       }
     ]
   },
@@ -1368,19 +1364,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws a MathError exception."
+        "text": "Throws a MathError exception."
       }
     ]
   },
@@ -1389,23 +1385,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function_expression -> ( arguments_if_any )"
+        "text": "function_expression -> ( arguments_if_any )"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)function_expression ( arguments_if_any )"
+        "text": "function_expression ( arguments_if_any )"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function_expression { arguments_if_any }"
+        "text": "function_expression { arguments_if_any }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)arguments_if_any ( function_expression )"
+        "text": "arguments_if_any ( function_expression )"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)( arguments_if_any ) -> function_expression"
+        "text": "( arguments_if_any ) -> function_expression"
       }
     ]
   },
@@ -1414,19 +1410,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function:doSomething() {}"
+        "text": "function:doSomething() {}"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)all of these"
+        "text": "all of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function=doSomething() {}"
+        "text": "function=doSomething() {}"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)function doSomething() {}"
+        "text": "function doSomething() {}"
       }
     ]
   },
@@ -1435,19 +1431,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var fName = \"Mary\";"
+        "text": "var fName = \"Mary\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var names = \"7\";"
+        "text": "var names = \"7\";"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Any of these"
+        "text": "Any of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var fName = new String;"
+        "text": "var fName = new String;"
       }
     ]
   },
@@ -1456,23 +1452,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       }
     ]
   },
@@ -1481,15 +1477,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)the redirect notation in JavaScript."
+        "text": "the redirect notation in JavaScript."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)none of these"
+        "text": "none of these"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)the dot notation in JavaScript."
+        "text": "the dot notation in JavaScript."
       }
     ]
   },
@@ -1498,19 +1494,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)[2,3,4,5]"
+        "text": "[2,3,4,5]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[1,2,3,4,5]"
+        "text": "[1,2,3,4,5]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[]"
+        "text": "[]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[1,2,3,4]"
+        "text": "[1,2,3,4]"
       }
     ]
   },
@@ -1519,15 +1515,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Converts a non-numeric value to a number."
+        "text": "Converts a non-numeric value to a number."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws an error if a conditional statement is false."
+        "text": "Throws an error if a conditional statement is false."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Only returns true if the argument is not a number"
+        "text": "Only returns true if the argument is not a number"
       }
     ]
   },
@@ -1536,19 +1532,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)altenative"
+        "text": "altenative"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)next"
+        "text": "next"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)or"
+        "text": "or"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)else"
+        "text": "else"
       }
     ]
   },
@@ -1557,15 +1553,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The code inside a while loop will always be executed at least once, even if the condition is false."
+        "text": "The code inside a while loop will always be executed at least once, even if the condition is false."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The code inside a do...while loop will always be executed at least once, even if the condition is false."
+        "text": "The code inside a do...while loop will always be executed at least once, even if the condition is false."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)There is no difference between them."
+        "text": "There is no difference between them."
       }
     ]
   },
@@ -1574,15 +1570,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The == is used in comparison, and === is used in value assignment."
+        "text": "The == is used in comparison, and === is used in value assignment."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The == operator converts both operands to the same type, whereas === returns false for different types."
+        "text": "The == operator converts both operands to the same type, whereas === returns false for different types."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The === is deprecated, and now they are exactly the same."
+        "text": "The === is deprecated, and now they are exactly the same."
       }
     ]
   },
@@ -1591,19 +1587,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var Person john = new Person('John', 'Doe', 50, 'blue');"
+        "text": "var Person john = new Person('John', 'Doe', 50, 'blue');"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new john = Person('John', 'Doe', 50, 'blue');"
+        "text": "new john = Person('John', 'Doe', 50, 'blue');"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Person john = new Person('John', 'Doe', 50, 'blue');"
+        "text": "Person john = new Person('John', 'Doe', 50, 'blue');"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var john = new Person('John', 'Doe', 50, 'blue');"
+        "text": "var john = new Person('John', 'Doe', 50, 'blue');"
       }
     ]
   },
@@ -1612,23 +1608,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError: undefined is not a function"
+        "text": "TypeError: undefined is not a function"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"foobar\""
+        "text": "\"foobar\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ReferenceError: foo is not defined"
+        "text": "ReferenceError: foo is not defined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)foo( )"
+        "text": "foo( )"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -1637,19 +1633,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)&"
+        "text": "&"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)."
+        "text": "."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)+"
+        "text": "+"
       }
     ]
   },
@@ -1658,19 +1654,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var names = [\"Tim\",\"Kim\",\"Jim\"];"
+        "text": "var names = [\"Tim\",\"Kim\",\"Jim\"];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var names = {1: \"Tim\", 2:\"Kim\", 3:\"Jim\"};"
+        "text": "var names = {1: \"Tim\", 2:\"Kim\", 3:\"Jim\"};"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var names = {0: \"Tim\", 1: \"Kim\", 2: \"Jim\"};"
+        "text": "var names = {0: \"Tim\", 1: \"Kim\", 2: \"Jim\"};"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var names = array(\"Tim\", \"Kim\", \"Jim\");"
+        "text": "var names = array(\"Tim\", \"Kim\", \"Jim\");"
       }
     ]
   },
@@ -1679,19 +1675,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Represent the name of the same constant"
+        "text": "Represent the name of the same constant"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Represent the name of the same variable"
+        "text": "Represent the name of the same variable"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Represent the name of different constants"
+        "text": "Represent the name of different constants"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Represent the name of different variables"
+        "text": "Represent the name of different variables"
       }
     ]
   },
@@ -1700,11 +1696,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Loosely typed, values of any type can be assigned to any variable."
+        "text": "Loosely typed, values of any type can be assigned to any variable."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Strongly typed, variables are declared with a type, and you can not assign another type to the variable."
+        "text": "Strongly typed, variables are declared with a type, and you can not assign another type to the variable."
       }
     ]
   },
@@ -1713,19 +1709,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)EvalError"
+        "text": "EvalError"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error"
+        "text": "Error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)RangeError"
+        "text": "RangeError"
       }
     ]
   },
@@ -1734,19 +1730,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)typeof(x);"
+        "text": "typeof(x);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x.__type;"
+        "text": "x.__type;"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)gettype(x);"
+        "text": "gettype(x);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Object.type(x);"
+        "text": "Object.type(x);"
       }
     ]
   },
@@ -1755,23 +1751,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\\\\ comment"
+        "text": "\\\\ comment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<!-- comment -->"
+        "text": "<!-- comment -->"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)// comment"
+        "text": "// comment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)# comment"
+        "text": "# comment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)-- comment"
+        "text": "-- comment"
       }
     ]
   },
@@ -1780,19 +1776,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)24"
+        "text": "24"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Other/Error"
+        "text": "Other/Error"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       }
     ]
   },
@@ -1801,19 +1797,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)9"
+        "text": "9"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)error"
+        "text": "error"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)11"
+        "text": "11"
       }
     ]
   },
@@ -1822,19 +1818,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)9"
+        "text": "9"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)error"
+        "text": "error"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)11"
+        "text": "11"
       }
     ]
   },
@@ -1843,19 +1839,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)while (i<=10;i++)"
+        "text": "while (i<=10;i++)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)while i=(1 <> 10)"
+        "text": "while i=(1 <> 10)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)while (i<=10)"
+        "text": "while (i<=10)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)while i=1 to 10"
+        "text": "while i=1 to 10"
       }
     ]
   },
@@ -1864,15 +1860,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)used inside of an `if` statement. To specify the code that should execute if the `if` condition is no longer true."
+        "text": "used inside of an `if` statement. To specify the code that should execute if the `if` condition is no longer true."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Does not exist, in JavaScript `or` and `then` are used to specify code to execute for the \"false\" case of the `if` statement."
+        "text": "Does not exist, in JavaScript `or` and `then` are used to specify code to execute for the \"false\" case of the `if` statement."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)used together with the `if` statement to specify the code that should execute when the `if` condition is false."
+        "text": "used together with the `if` statement to specify the code that should execute when the `if` condition is false."
       }
     ]
   },
@@ -1881,23 +1877,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"foo + bar\""
+        "text": "\"foo + bar\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An error is thrown because of illegal out of scope access."
+        "text": "An error is thrown because of illegal out of scope access."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"foobar\""
+        "text": "\"foobar\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"undefinedundefined\""
+        "text": "\"undefinedundefined\""
       }
     ]
   },
@@ -1906,15 +1902,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Just double quotes: \"example\""
+        "text": "Just double quotes: \"example\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Either double quotes or single quotes: \"example\" and 'example'"
+        "text": "Either double quotes or single quotes: \"example\" and 'example'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Just single quotes: 'example'"
+        "text": "Just single quotes: 'example'"
       }
     ]
   },
@@ -1923,23 +1919,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)myObj.foo"
+        "text": "myObj.foo"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myObj[foo]"
+        "text": "myObj[foo]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myObj<foo>"
+        "text": "myObj<foo>"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myObj->foo"
+        "text": "myObj->foo"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myObj(foo)"
+        "text": "myObj(foo)"
       }
     ]
   },
@@ -1948,19 +1944,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)&&"
+        "text": "&&"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)!"
+        "text": "!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)||"
+        "text": "||"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)%"
+        "text": "%"
       }
     ]
   },
@@ -1969,19 +1965,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)if (x === 1) {  }"
+        "text": "if (x === 1) {  }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)if (x == 1) {  }"
+        "text": "if (x == 1) {  }"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)if (x ==== 1) {  }"
+        "text": "if (x ==== 1) {  }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)if (x = 1) {  }"
+        "text": "if (x = 1) {  }"
       }
     ]
   },
@@ -1990,11 +1986,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -2003,19 +1999,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Math.round(7.25)"
+        "text": "Math.round(7.25)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Math.rnd(7.25)"
+        "text": "Math.rnd(7.25)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rnd(7.25)"
+        "text": "rnd(7.25)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)round(7.25)"
+        "text": "round(7.25)"
       }
     ]
   },
@@ -2024,23 +2020,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myArr.unshift();"
+        "text": "myArr.unshift();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myArr.shift();"
+        "text": "myArr.shift();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myArr[1];"
+        "text": "myArr[1];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)myArr.pop();"
+        "text": "myArr.pop();"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)myArr[0];"
+        "text": "myArr[0];"
       }
     ]
   },
@@ -2049,23 +2045,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)function fName() { }"
+        "text": "function fName() { }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new fName = { }"
+        "text": "new fName = { }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)func fName = function () {}"
+        "text": "func fName = function () {}"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function fName: { }"
+        "text": "function fName: { }"
       }
     ]
   },
@@ -2074,19 +2070,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)program"
+        "text": "program"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)throw"
+        "text": "throw"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)return"
+        "text": "return"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)void"
+        "text": "void"
       }
     ]
   },
@@ -2095,19 +2091,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A !== B & B !== C"
+        "text": "A !== B & B !== C"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A !== B || B !== C"
+        "text": "A !== B || B !== C"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)A !== B && B !== C && A !== C"
+        "text": "A !== B && B !== C && A !== C"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A !== B"
+        "text": "A !== B"
       }
     ]
   },
@@ -2116,19 +2112,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Aborts the current loop or switch statement."
+        "text": "Aborts the current loop or switch statement."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Simulates a JavaScript crash."
+        "text": "Simulates a JavaScript crash."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Aborts the current function."
+        "text": "Aborts the current function."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Cancels the current event."
+        "text": "Cancels the current event."
       }
     ]
   },
@@ -2137,15 +2133,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)func myFunc = (arg1 as string, arg2 as int) { }"
+        "text": "func myFunc = (arg1 as string, arg2 as int) { }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function myFunc(arg1, arg2):"
+        "text": "function myFunc(arg1, arg2):"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)function myFunc(arg1,arg2) { }"
+        "text": "function myFunc(arg1,arg2) { }"
       }
     ]
   },
@@ -2154,15 +2150,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var myVar = \"This is a string\";"
+        "text": "var myVar = \"This is a string\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var string myVar = \"This is a string\";"
+        "text": "var string myVar = \"This is a string\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string myVar = \"This is a string\";"
+        "text": "string myVar = \"This is a string\";"
       }
     ]
   },
@@ -2171,11 +2167,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Yes"
+        "text": "Yes"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)No"
+        "text": "No"
       }
     ]
   },
@@ -2184,19 +2180,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)// This comment has more than one line //"
+        "text": "// This comment has more than one line //"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)// This comment has mor  than one line *//"
+        "text": "// This comment has mor  than one line *//"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)/ This comment has more than one line /"
+        "text": "/ This comment has more than one line /"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)/* This comment has more  than one line */"
+        "text": "/* This comment has more  than one line */"
       }
     ]
   },
@@ -2205,19 +2201,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Convert an integer value to a boolean"
+        "text": "Convert an integer value to a boolean"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Deal with logic that should execute only when a condition is true"
+        "text": "Deal with logic that should execute only when a condition is true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Deal with logic that should execute only when a condition is false"
+        "text": "Deal with logic that should execute only when a condition is false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Create a loop that runs as long as a condition is true"
+        "text": "Create a loop that runs as long as a condition is true"
       }
     ]
   },
@@ -2226,23 +2222,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)!"
+        "text": "!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)?"
+        "text": "?"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)="
+        "text": "="
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)#"
+        "text": "#"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency):"
+        "text": ":"
       }
     ]
   },
@@ -2251,19 +2247,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)is the splitting of a String into two or more Strings"
+        "text": "is the splitting of a String into two or more Strings"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Is a complex String"
+        "text": "Is a complex String"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Is an elemental String"
+        "text": "Is an elemental String"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Is the combination of two or more text Strings"
+        "text": "Is the combination of two or more text Strings"
       }
     ]
   },
@@ -2272,19 +2268,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ignoreCase"
+        "text": "ignoreCase"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)source"
+        "text": "source"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)lastIndex"
+        "text": "lastIndex"
       }
     ]
   },
@@ -2293,19 +2289,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Return a number raised to the power of a second number"
+        "text": "Return a number raised to the power of a second number"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Return any number"
+        "text": "Return any number"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Return a variable value"
+        "text": "Return a variable value"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Return a random value between 0 and 1"
+        "text": "Return a random value between 0 and 1"
       }
     ]
   },
@@ -2314,15 +2310,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       }
     ]
   },
@@ -2331,19 +2327,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (...) { }"
+        "text": "for (...) { }"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)repeat (...) { }"
+        "text": "repeat (...) { }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)while (...) { }"
+        "text": "while (...) { }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)do { } while(...)"
+        "text": "do { } while(...)"
       }
     ]
   },
@@ -2352,19 +2348,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"B\""
+        "text": "\"B\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"AB\""
+        "text": "\"AB\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"A\""
+        "text": "\"A\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"A\", \" B\"];"
+        "text": "[\"A\", \" B\"];"
       }
     ]
   },
@@ -2373,15 +2369,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (i = 0; i <= myArray.length;)"
+        "text": "for (i = 0; i <= myArray.length;)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)for (var i=0; i < myArray.length; i++)"
+        "text": "for (var i=0; i < myArray.length; i++)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (i < myArray.length; i++)"
+        "text": "for (i < myArray.length; i++)"
       }
     ]
   },
@@ -2390,19 +2386,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Declare a member of a class"
+        "text": "Declare a member of a class"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Retrieve a variable descriptor"
+        "text": "Retrieve a variable descriptor"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Change a constant"
+        "text": "Change a constant"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Create a new local variable"
+        "text": "Create a new local variable"
       }
     ]
   },
@@ -2411,23 +2407,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one+"
+        "text": "one+"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one+two_three_four_five"
+        "text": "one+two_three_four_five"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one_two_three_four_five"
+        "text": "one_two_three_four_five"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)one+two+three+four+five"
+        "text": "one+two+three+four+five"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)_______________________"
+        "text": "_______________________"
       }
     ]
   },
@@ -2436,15 +2432,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A condition to check at the beginning of a loop cycle"
+        "text": "A condition to check at the beginning of a loop cycle"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)An action to take at the end of the current loop cycle"
+        "text": "An action to take at the end of the current loop cycle"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An action to take at the beginning of the loop cycle"
+        "text": "An action to take at the beginning of the loop cycle"
       }
     ]
   },
@@ -2453,23 +2449,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)To add a value to an array."
+        "text": "To add a value to an array."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)To terminate a switch statement, loop, or labeled block."
+        "text": "To terminate a switch statement, loop, or labeled block."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)To terminate an Object statement."
+        "text": "To terminate an Object statement."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)To delete a (global) variable."
+        "text": "To delete a (global) variable."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)To divide (or \"break\") a mathematical value in half."
+        "text": "To divide (or \"break\") a mathematical value in half."
       }
     ]
   },
@@ -2478,23 +2474,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)$"
+        "text": "$"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)-1"
+        "text": "-1"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)100"
+        "text": "100"
       }
     ]
   },
@@ -2503,19 +2499,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean"
+        "text": "boolean"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)number"
+        "text": "number"
       }
     ]
   },
@@ -2524,19 +2520,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)how"
+        "text": "how"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)condition"
+        "text": "condition"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)if"
+        "text": "if"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)when"
+        "text": "when"
       }
     ]
   },
@@ -2545,19 +2541,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A period \".\"."
+        "text": "A period \".\"."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)A semicolon \";\"."
+        "text": "A semicolon \";\"."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A colon \":\"."
+        "text": "A colon \":\"."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An exclamation mark \"!\"."
+        "text": "An exclamation mark \"!\"."
       }
     ]
   },
@@ -2566,19 +2562,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var x = y === true ? \"true\" : \"false\";"
+        "text": "var x = y === true ? \"true\" : \"false\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = ( y === true ) : \"true\" ? \"false\";"
+        "text": "var x = ( y === true ) : \"true\" ? \"false\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = y === true : \"true\" ? \"false\";"
+        "text": "var x = y === true : \"true\" ? \"false\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var x = ( y === true ) { \"true\" : \"false\" };"
+        "text": "var x = ( y === true ) { \"true\" : \"false\" };"
       }
     ]
   },
@@ -2587,19 +2583,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)HTML"
+        "text": "HTML"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ActionScript"
+        "text": "ActionScript"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)VBScript"
+        "text": "VBScript"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)ECMAScript"
+        "text": "ECMAScript"
       }
     ]
   },
@@ -2608,23 +2604,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)closure"
+        "text": "closure"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -2633,19 +2629,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError"
+        "text": "SyntaxError"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -2654,23 +2650,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"x\".concat(\"foo\")"
+        "text": "\"x\".concat(\"foo\")"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"x\".add(\"foo\")"
+        "text": "\"x\".add(\"foo\")"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these does that and/or such method doesn't exist in javascript!"
+        "text": "None of these does that and/or such method doesn't exist in javascript!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"x\".combine(\"foo\")"
+        "text": "\"x\".combine(\"foo\")"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"x\".match(\"foo\")"
+        "text": "\"x\".match(\"foo\")"
       }
     ]
   },
@@ -2679,23 +2675,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var myArray = ();"
+        "text": "var myArray = ();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var myArray = array();"
+        "text": "var myArray = array();"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var myArray = [];"
+        "text": "var myArray = [];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var myArray = new Array[];"
+        "text": "var myArray = new Array[];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var myArray = {};"
+        "text": "var myArray = {};"
       }
     ]
   },
@@ -2704,23 +2700,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"A\", \"B\", \"C\", \"D\", \"X\", \"Y\"]"
+        "text": "[\"A\", \"B\", \"C\", \"D\", \"X\", \"Y\"]"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)[\"X\", \"A\", \"B\", \"C\", \"D\", \"Y\"]"
+        "text": "[\"X\", \"A\", \"B\", \"C\", \"D\", \"Y\"]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"A\", \"B\", \"C\", \"X\", \"D\", \"Y\"]"
+        "text": "[\"A\", \"B\", \"C\", \"X\", \"D\", \"Y\"]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"Y\", \"A\", \"B\", \"C\", \"D\", \"X\"]"
+        "text": "[\"Y\", \"A\", \"B\", \"C\", \"D\", \"X\"]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"X\", \"Y\", \"A\", \"B\", \"C\", \"D\"]"
+        "text": "[\"X\", \"Y\", \"A\", \"B\", \"C\", \"D\"]"
       }
     ]
   },
@@ -2729,19 +2725,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)!!"
+        "text": "!!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)$$"
+        "text": "$$"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)--"
+        "text": "--"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)//"
+        "text": "//"
       }
     ]
   },
@@ -2750,23 +2746,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[];"
+        "text": "[];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)object;"
+        "text": "object;"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency){};"
+        "text": "{};"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)nil;"
+        "text": "nil;"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)();"
+        "text": "();"
       }
     ]
   },
@@ -2775,15 +2771,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'One' + 'Two' + 'Three'"
+        "text": "'One' + 'Two' + 'Three'"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Both of these"
+        "text": "Both of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'One'.concat('Two', 'Three')"
+        "text": "'One'.concat('Two', 'Three')"
       }
     ]
   },
@@ -2792,15 +2788,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)obj[\"age\"] = 25 OR obj.age = 25"
+        "text": "obj[\"age\"] = 25 OR obj.age = 25"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)obj.age = 25 OR obj(@\"age\") = 25"
+        "text": "obj.age = 25 OR obj(@\"age\") = 25"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)obj(age) = 25 OR obj.age = 25"
+        "text": "obj(age) = 25 OR obj.age = 25"
       }
     ]
   },
@@ -2809,23 +2805,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"Hello\""
+        "text": "\"Hello\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NULL"
+        "text": "NULL"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)['Hello']"
+        "text": "['Hello']"
       }
     ]
   },
@@ -2834,23 +2830,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)typename"
+        "text": "typename"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)getType"
+        "text": "getType"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Type"
+        "text": "Type"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeOf"
+        "text": "TypeOf"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)typeof"
+        "text": "typeof"
       }
     ]
   },
@@ -2859,23 +2855,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a colon \":\""
+        "text": "a colon \":\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)a comma \",\""
+        "text": "a comma \",\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a full-stop \".\""
+        "text": "a full-stop \".\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a semicolon \";\""
+        "text": "a semicolon \";\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)an underscore \"_\""
+        "text": "an underscore \"_\""
       }
     ]
   },
@@ -2884,23 +2880,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Invoking a function"
+        "text": "Invoking a function"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Defining a class"
+        "text": "Defining a class"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Parsing JSON"
+        "text": "Parsing JSON"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Block declarations and object literals"
+        "text": "Block declarations and object literals"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Setting attributes"
+        "text": "Setting attributes"
       }
     ]
   },
@@ -2909,23 +2905,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"bar\""
+        "text": "\"bar\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)7"
+        "text": "7"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10"
+        "text": "10"
       }
     ]
   },
@@ -2934,19 +2930,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these work."
+        "text": "All of these work."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var obj = {};"
+        "text": "var obj = {};"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var obj = new Object();"
+        "text": "var obj = new Object();"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function Foo() {}  var obj = new Foo();"
+        "text": "function Foo() {}  var obj = new Foo();"
       }
     ]
   },
@@ -2955,15 +2951,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)JSON.parse"
+        "text": "JSON.parse"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)JSON.stringify"
+        "text": "JSON.stringify"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)JSON.fromString"
+        "text": "JSON.fromString"
       }
     ]
   },
@@ -2972,23 +2968,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"1234567\".getLength()"
+        "text": "\"1234567\".getLength()"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"1234567\".length"
+        "text": "\"1234567\".length"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"1234567\".Length"
+        "text": "\"1234567\".Length"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"1234567\".length()"
+        "text": "\"1234567\".length()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"1234567\".Length()"
+        "text": "\"1234567\".Length()"
       }
     ]
   },
@@ -2997,19 +2993,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws Error, invalid comparison"
+        "text": "Throws Error, invalid comparison"
       }
     ]
   },
@@ -3018,19 +3014,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)they are primitive values"
+        "text": "they are primitive values"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)they have the same instance properties"
+        "text": "they have the same instance properties"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)they are objects"
+        "text": "they are objects"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)they are functions"
+        "text": "they are functions"
       }
     ]
   },
@@ -3039,23 +3035,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[]"
+        "text": "[]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"bar\"]"
+        "text": "[\"bar\"]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"foo\", \"bar', 1]"
+        "text": "[\"foo\", \"bar', 1]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[\"foo\", \"bar\"]"
+        "text": "[\"foo\", \"bar\"]"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)[\"foo\"]"
+        "text": "[\"foo\"]"
       }
     ]
   },
@@ -3064,19 +3060,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a random number between 0 and 1000"
+        "text": "a random number between 0 and 1000"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)a random number between 0 and 1"
+        "text": "a random number between 0 and 1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a random number that can be any value"
+        "text": "a random number that can be any value"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a random number between 0 and 100"
+        "text": "a random number between 0 and 100"
       }
     ]
   },
@@ -3085,23 +3081,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError"
+        "text": "SyntaxError"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -3110,19 +3106,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Code to execute once, after the loop has ended"
+        "text": "Code to execute once, after the loop has ended"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Code to execute once, before the loop starts"
+        "text": "Code to execute once, before the loop starts"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A condition to check at the end of each loop cycle"
+        "text": "A condition to check at the end of each loop cycle"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)A condition to check at the beginning of each loop cycle"
+        "text": "A condition to check at the beginning of each loop cycle"
       }
     ]
   },
@@ -3131,15 +3127,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"hello\""
+        "text": "\"hello\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined. A SyntaxError is thrown"
+        "text": "undefined. A SyntaxError is thrown"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"goodbye\""
+        "text": "\"goodbye\""
       }
     ]
   },
@@ -3148,19 +3144,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)character"
+        "text": "character"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)number"
+        "text": "number"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean"
+        "text": "boolean"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       }
     ]
   },
@@ -3169,23 +3165,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)foo"
+        "text": "foo"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10"
+        "text": "10"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)7"
+        "text": "7"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       }
     ]
   },
@@ -3194,23 +3190,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)7"
+        "text": "7"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)6"
+        "text": "6"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       }
     ]
   },
@@ -3219,15 +3215,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)parent object that hosts the current function."
+        "text": "parent object that hosts the current function."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)current execution context (could be any value)."
+        "text": "current execution context (could be any value)."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function currently being executed."
+        "text": "function currently being executed."
       }
     ]
   },
@@ -3236,19 +3232,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a displacement bit operator"
+        "text": "a displacement bit operator"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)an operator used in conditionals"
+        "text": "an operator used in conditionals"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)an assignment operator"
+        "text": "an assignment operator"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)a bitwise operator"
+        "text": "a bitwise operator"
       }
     ]
   },
@@ -3257,19 +3253,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)< >"
+        "text": "< >"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[ ]"
+        "text": "[ ]"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)( )"
+        "text": "( )"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency){ }"
+        "text": "{ }"
       }
     ]
   },
@@ -3278,19 +3274,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An error, because it was called incorrectly"
+        "text": "An error, because it was called incorrectly"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10.13"
+        "text": "10.13"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10"
+        "text": "10"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)11"
+        "text": "11"
       }
     ]
   },
@@ -3299,19 +3295,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"object\""
+        "text": "\"object\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"null\""
+        "text": "\"null\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"array\""
+        "text": "\"array\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"undefined\""
+        "text": "\"undefined\""
       }
     ]
   },
@@ -3320,19 +3316,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)10"
+        "text": "10"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       }
     ]
   },
@@ -3341,19 +3337,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)apply() is deprecated in favor of call()"
+        "text": "apply() is deprecated in favor of call()"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)apply() is identical to call(), except apply() requires an array as the second parameter"
+        "text": "apply() is identical to call(), except apply() requires an array as the second parameter"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)apply() is identical to call(), except call() requires an array as the second parameter"
+        "text": "apply() is identical to call(), except call() requires an array as the second parameter"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)apply() is exactly identical to call()"
+        "text": "apply() is exactly identical to call()"
       }
     ]
   },
@@ -3362,23 +3358,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)6"
+        "text": "6"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       }
     ]
   },
@@ -3387,23 +3383,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)object"
+        "text": "object"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)number"
+        "text": "number"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean"
+        "text": "boolean"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)integer"
+        "text": "integer"
       }
     ]
   },
@@ -3412,23 +3408,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)15"
+        "text": "15"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'510'"
+        "text": "'510'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)510"
+        "text": "510"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Nothing, the code will result in an error."
+        "text": "Nothing, the code will result in an error."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       }
     ]
   },
@@ -3437,23 +3433,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Increments the value of \"variable\" and returns the new value"
+        "text": "Increments the value of \"variable\" and returns the new value"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Returns a value 1 greater than \"variable\" without changing its value"
+        "text": "Returns a value 1 greater than \"variable\" without changing its value"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Adds the value of \"variable\" to itself"
+        "text": "Adds the value of \"variable\" to itself"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Returns an error to the browser"
+        "text": "Returns an error to the browser"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Increments the value of \"variable\" but returns the previous value"
+        "text": "Increments the value of \"variable\" but returns the previous value"
       }
     ]
   },
@@ -3462,23 +3458,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'boolean'"
+        "text": "'boolean'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'false'"
+        "text": "'false'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'number'"
+        "text": "'number'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'primitive'"
+        "text": "'primitive'"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'object'"
+        "text": "'object'"
       }
     ]
   },
@@ -3487,15 +3483,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)object"
+        "text": "object"
       }
     ]
   },
@@ -3504,23 +3500,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function.Execute(...)"
+        "text": "function.Execute(...)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function.Apply(...)"
+        "text": "function.Apply(...)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)function.apply(...)"
+        "text": "function.apply(...)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function.exec(...)"
+        "text": "function.exec(...)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function.invoke(...)"
+        "text": "function.invoke(...)"
       }
     ]
   },
@@ -3529,15 +3525,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)No, when trying to compare it against itself, an exception is thrown."
+        "text": "No, when trying to compare it against itself, an exception is thrown."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Yes, just like 123 is equal to (==) 123, NaN is equal to NaN."
+        "text": "Yes, just like 123 is equal to (==) 123, NaN is equal to NaN."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)No, NaN does not equal itself (== comparison would return false)."
+        "text": "No, NaN does not equal itself (== comparison would return false)."
       }
     ]
   },
@@ -3546,19 +3542,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false false"
+        "text": "false false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError : Cannot convert to boolean"
+        "text": "TypeError : Cannot convert to boolean"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN NaN"
+        "text": "NaN NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false true"
+        "text": "false true"
       }
     ]
   },
@@ -3567,23 +3563,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'/e242'"
+        "text": "'/e242'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError: Unexpected identifier"
+        "text": "SyntaxError: Unexpected identifier"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)242"
+        "text": "242"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError: incorrect type of argument, expected Number but was String."
+        "text": "TypeError: incorrect type of argument, expected Number but was String."
       }
     ]
   },
@@ -3592,19 +3588,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Time"
+        "text": "Time"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)RegExp"
+        "text": "RegExp"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Array"
+        "text": "Array"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Date"
+        "text": "Date"
       }
     ]
   },
@@ -3613,23 +3609,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Type Error"
+        "text": "Type Error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -3638,19 +3634,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these. One can only iterate over arrays, not objects."
+        "text": "None of these. One can only iterate over arrays, not objects."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (var i = 0; i < my_data.length; i++) {}"
+        "text": "for (var i = 0; i < my_data.length; i++) {}"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)foreach (my_data as key => value) {}"
+        "text": "foreach (my_data as key => value) {}"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)for (var key in my_data) {}"
+        "text": "for (var key in my_data) {}"
       }
     ]
   },
@@ -3659,11 +3655,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       }
     ]
   },
@@ -3672,19 +3668,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Return the tangent of an angle (in gradients)"
+        "text": "Return the tangent of an angle (in gradients)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Return the tangent of an angle (in radians)"
+        "text": "Return the tangent of an angle (in radians)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Return the tangent of an angle (in degrees)"
+        "text": "Return the tangent of an angle (in degrees)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Does not exist in JavaScript"
+        "text": "Does not exist in JavaScript"
       }
     ]
   },
@@ -3693,19 +3689,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)still valid, but deprecated since Javascript 1.6"
+        "text": "still valid, but deprecated since Javascript 1.6"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)valid javascript syntax as any other character"
+        "text": "valid javascript syntax as any other character"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)invalid, a common bug introduced by developers coming from PHP or Perl"
+        "text": "invalid, a common bug introduced by developers coming from PHP or Perl"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)only valid within certain javascript libraries"
+        "text": "only valid within certain javascript libraries"
       }
     ]
   },
@@ -3714,11 +3710,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       }
     ]
   },
@@ -3727,19 +3723,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -3748,19 +3744,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined. An exception is thrown"
+        "text": "undefined. An exception is thrown"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"6 bottles of milk\""
+        "text": "\"6 bottles of milk\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"15 bottles of milk\""
+        "text": "\"15 bottles of milk\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"5 bottles of milk\""
+        "text": "\"5 bottles of milk\""
       }
     ]
   },
@@ -3769,23 +3765,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)obj.exists('propertyName');"
+        "text": "obj.exists('propertyName');"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)obj.hasOwnProperty('propertyName');"
+        "text": "obj.hasOwnProperty('propertyName');"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)obj.contains('propertyName');"
+        "text": "obj.contains('propertyName');"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)obj.doesPropertyExist('propertyName');"
+        "text": "obj.doesPropertyExist('propertyName');"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)obj.hasProperty('propertyName');"
+        "text": "obj.hasProperty('propertyName');"
       }
     ]
   },
@@ -3794,19 +3790,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Global Local"
+        "text": "Global Local"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Global Global"
+        "text": "Global Global"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Local Local"
+        "text": "Local Local"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined Local"
+        "text": "undefined Local"
       }
     ]
   },
@@ -3815,23 +3811,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (var i = 0, len = myArray.length; i < len; i++) {}"
+        "text": "for (var i = 0, len = myArray.length; i < len; i++) {}"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)None of these, they are all valid"
+        "text": "None of these, they are all valid"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (var i = 0; i < myArray.length; i++) {}"
+        "text": "for (var i = 0; i < myArray.length; i++) {}"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var i = 0; for (; i < myArray.length; i++) {}"
+        "text": "var i = 0; for (; i < myArray.length; i++) {}"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)for (var i = 0; i < myArray.length; i += 1) {}"
+        "text": "for (var i = 0; i < myArray.length; i += 1) {}"
       }
     ]
   },
@@ -3840,19 +3836,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Can be 1 or 2"
+        "text": "Can be 1 or 2"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError thrown when running the code"
+        "text": "SyntaxError thrown when running the code"
       }
     ]
   },
@@ -3861,19 +3857,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"foo\""
+        "text": "\"foo\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"bar\""
+        "text": "\"bar\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throw an Error"
+        "text": "Throw an Error"
       }
     ]
   },
@@ -3882,19 +3878,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var c = a.join(b);"
+        "text": "var c = a.join(b);"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var c = a.concat(b);"
+        "text": "var c = a.concat(b);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var c = a.push() + b.push();"
+        "text": "var c = a.push() + b.push();"
       }
     ]
   },
@@ -3903,23 +3899,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false false"
+        "text": "false false"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true false"
+        "text": "true false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false true"
+        "text": "false true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error: one is not defined"
+        "text": "Error: one is not defined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true true"
+        "text": "true true"
       }
     ]
   },
@@ -3928,23 +3924,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Direct attribution, e.g. this = x;"
+        "text": "Direct attribution, e.g. this = x;"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Invoking a function with the \"new\" keyword, invoking through the .call() method, invoking through the .apply() method."
+        "text": "Invoking a function with the \"new\" keyword, invoking through the .call() method, invoking through the .apply() method."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)the \"this\" keyword is a global reference that always has the same value."
+        "text": "the \"this\" keyword is a global reference that always has the same value."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Only by invoking through the .call() or .apply() method."
+        "text": "Only by invoking through the .call() or .apply() method."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Only by invoking a function with the \"new\" keyword"
+        "text": "Only by invoking a function with the \"new\" keyword"
       }
     ]
   },
@@ -3953,19 +3949,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)No difference, they are treated the same way by the javascript engine. Different syntax to do the same."
+        "text": "No difference, they are treated the same way by the javascript engine. Different syntax to do the same."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)functionOne is defined in-place (until that line, functionOne is undefined), whereas functionTwo is hoisted to the top of the scope and is available as a function throughout the scope."
+        "text": "functionOne is defined in-place (until that line, functionOne is undefined), whereas functionTwo is hoisted to the top of the scope and is available as a function throughout the scope."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)functionOne is not a correct way to define functions"
+        "text": "functionOne is not a correct way to define functions"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)functionTwo is defined in-place (until that line, functionTwo is undefined), whereas functionOne is hosted to the top of the scope and is available as a function throughout the scope."
+        "text": "functionTwo is defined in-place (until that line, functionTwo is undefined), whereas functionOne is hosted to the top of the scope and is available as a function throughout the scope."
       }
     ]
   },
@@ -3974,19 +3970,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)As octal if they are preceded by a zero, and as hexadecimal if they are preceded by a zero and \"x\""
+        "text": "As octal if they are preceded by a zero, and as hexadecimal if they are preceded by a zero and \"x\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these are correct"
+        "text": "None of these are correct"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)As hexadecimal if they are preceded by a zero only"
+        "text": "As hexadecimal if they are preceded by a zero only"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)As octal if they are preceded by an underscore"
+        "text": "As octal if they are preceded by an underscore"
       }
     ]
   },
@@ -3995,19 +3991,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Prefixed with the @ operator"
+        "text": "Prefixed with the @ operator"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)quoted"
+        "text": "quoted"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)escaped"
+        "text": "escaped"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)This is not possible in javascript"
+        "text": "This is not possible in javascript"
       }
     ]
   },
@@ -4016,19 +4012,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)-7"
+        "text": "-7"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws Javascript error"
+        "text": "Throws Javascript error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)10125"
+        "text": "10125"
       }
     ]
   },
@@ -4037,19 +4033,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       }
     ]
   },
@@ -4058,23 +4054,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error on last line: index out of bounds"
+        "text": "Error on last line: index out of bounds"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error on middle line: cannot add properties to Array"
+        "text": "Error on middle line: cannot add properties to Array"
       }
     ]
   },
@@ -4083,19 +4079,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"foo bar \""
+        "text": "\"foo bar \""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"bar \""
+        "text": "\"bar \""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"foo foo \""
+        "text": "\"foo foo \""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"foo bar\""
+        "text": "\"foo bar\""
       }
     ]
   },
@@ -4104,19 +4100,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)10"
+        "text": "10"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'1'"
+        "text": "'1'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'111'"
+        "text": "'111'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       }
     ]
   },
@@ -4125,15 +4121,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws an Error"
+        "text": "Throws an Error"
       }
     ]
   },
@@ -4142,23 +4138,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Number"
+        "text": "Number"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)error"
+        "text": "error"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)empty"
+        "text": "empty"
       }
     ]
   },
@@ -4167,19 +4163,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)An exception is thrown."
+        "text": "An exception is thrown."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -4188,23 +4184,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)array.split(...)"
+        "text": "array.split(...)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)array.splice(...)"
+        "text": "array.splice(...)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)array.switch(...)"
+        "text": "array.switch(...)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)array.overwrite(...)"
+        "text": "array.overwrite(...)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)array.replace(...)"
+        "text": "array.replace(...)"
       }
     ]
   },
@@ -4213,19 +4209,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'Bolt' and 'Bolt'"
+        "text": "'Bolt' and 'Bolt'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'Nut' and 'Nut'"
+        "text": "'Nut' and 'Nut'"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'Nut' then 'Bolt'"
+        "text": "'Nut' then 'Bolt'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'Bolt' then 'Nut'"
+        "text": "'Bolt' then 'Nut'"
       }
     ]
   },
@@ -4234,15 +4230,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       }
     ]
   },
@@ -4251,23 +4247,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)foo baz"
+        "text": "foo baz"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)biz bar"
+        "text": "biz bar"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError: Undefined is not a function"
+        "text": "TypeError: Undefined is not a function"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)biz baz"
+        "text": "biz baz"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)baz biz"
+        "text": "baz biz"
       }
     ]
   },
@@ -4276,19 +4272,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Infinity"
+        "text": "Infinity"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Runtime exception"
+        "text": "Runtime exception"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       }
     ]
   },
@@ -4297,19 +4293,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError"
+        "text": "SyntaxError"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)TypeError"
+        "text": "TypeError"
       }
     ]
   },
@@ -4318,23 +4314,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Returns a random number more than 0 and less than 1."
+        "text": "Returns a random number more than 0 and less than 1."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Returns a random number from and including 0 to less than 1."
+        "text": "Returns a random number from and including 0 to less than 1."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Returns a random number more than 0 up to and including 1."
+        "text": "Returns a random number more than 0 up to and including 1."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Randomly selects a number 1-10."
+        "text": "Randomly selects a number 1-10."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Randomly put numbers in descending and ascending order"
+        "text": "Randomly put numbers in descending and ascending order"
       }
     ]
   },
@@ -4343,19 +4339,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError is thrown"
+        "text": "SyntaxError is thrown"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Variable foo is a local variable. But bar is a global variable."
+        "text": "Variable foo is a local variable. But bar is a global variable."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Both foo and bar are global variables."
+        "text": "Both foo and bar are global variables."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Both foo and bar are local variables."
+        "text": "Both foo and bar are local variables."
       }
     ]
   },
@@ -4364,19 +4360,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x = \"I am global x\"; y = \"I am global y\";"
+        "text": "x = \"I am global x\"; y = \"I am global y\";"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)x = \"Hello from foo\"; y = \"I am global y\";"
+        "text": "x = \"Hello from foo\"; y = \"I am global y\";"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The function throws a SyntaxError"
+        "text": "The function throws a SyntaxError"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)x = \"Hello from foo\"; y = \"Hello from foo\";"
+        "text": "x = \"Hello from foo\"; y = \"Hello from foo\";"
       }
     ]
   },
@@ -4385,19 +4381,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Type Error"
+        "text": "Type Error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       }
     ]
   },
@@ -4406,23 +4402,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)123"
+        "text": "123"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"test\""
+        "text": "\"test\""
       }
     ]
   },
@@ -4431,23 +4427,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)[object Object]"
+        "text": "[object Object]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error thrown"
+        "text": "Error thrown"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)(empty)"
+        "text": "(empty)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -4456,19 +4452,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)+"
+        "text": "+"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)-"
+        "text": "-"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)^"
+        "text": "^"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)*"
+        "text": "*"
       }
     ]
   },
@@ -4477,19 +4473,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined 5"
+        "text": "undefined 5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5 5"
+        "text": "5 5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined undefined"
+        "text": "undefined undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)5 undefined"
+        "text": "5 undefined"
       }
     ]
   },
@@ -4498,23 +4494,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Error thrown when running the code"
+        "text": "Error thrown when running the code"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)1 2"
+        "text": "1 2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2 1"
+        "text": "2 1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2 2"
+        "text": "2 2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1 1"
+        "text": "1 1"
       }
     ]
   },
@@ -4523,19 +4519,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Type Error"
+        "text": "Type Error"
       }
     ]
   },
@@ -4544,23 +4540,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Type Error"
+        "text": "Type Error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)(Instance of object Boolean with valueOf false)"
+        "text": "(Instance of object Boolean with valueOf false)"
       }
     ]
   },
@@ -4569,11 +4565,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Lexical scoping"
+        "text": "Lexical scoping"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Prototypal inheritance"
+        "text": "Prototypal inheritance"
       }
     ]
   },
@@ -4582,19 +4578,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)returns all properties of x as an array of strings, including non-enumerable properties."
+        "text": "returns all properties of x as an array of strings, including non-enumerable properties."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Incorrect syntax for using Object.keys."
+        "text": "Incorrect syntax for using Object.keys."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)returns a key that can be used to unlock the object after Object.freeze(x)."
+        "text": "returns a key that can be used to unlock the object after Object.freeze(x)."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)returns the enumerable properties of x as an array of strings."
+        "text": "returns the enumerable properties of x as an array of strings."
       }
     ]
   },
@@ -4603,19 +4599,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)throws an error"
+        "text": "throws an error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)2"
+        "text": "2"
       }
     ]
   },
@@ -4624,19 +4620,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Math.Pi.toString(\"D2\")"
+        "text": "Math.Pi.toString(\"D2\")"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Math.Pi.toPrecision(2)"
+        "text": "Math.Pi.toPrecision(2)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Math.Round(Math.Pi)"
+        "text": "Math.Round(Math.Pi)"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Math.Pi.toFixed(2)"
+        "text": "Math.Pi.toFixed(2)"
       }
     ]
   },
@@ -4645,23 +4641,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one_two_three_four_five"
+        "text": "one_two_three_four_five"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one+two+three+four+five"
+        "text": "one+two+three+four+five"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)one+two_three_four_five"
+        "text": "one+two_three_four_five"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one+"
+        "text": "one+"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)one_"
+        "text": "one_"
       }
     ]
   },
@@ -4670,23 +4666,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"B\"  undefined"
+        "text": "\"B\"  undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"B\"  \"B\""
+        "text": "\"B\"  \"B\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"A\"  \"B\""
+        "text": "\"A\"  \"B\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"A\"  undefined"
+        "text": "\"A\"  undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"A\" \"A\""
+        "text": "\"A\" \"A\""
       }
     ]
   },
@@ -4695,23 +4691,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)23"
+        "text": "23"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)22"
+        "text": "22"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)-22"
+        "text": "-22"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)21"
+        "text": "21"
       }
     ]
   },
@@ -4720,19 +4716,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var newArray = new Array(oldArray);"
+        "text": "var newArray = new Array(oldArray);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var newArray = [oldArray];"
+        "text": "var newArray = [oldArray];"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)var newArray = oldArray;"
+        "text": "var newArray = oldArray;"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)var newArray = oldArray.slice(0);"
+        "text": "var newArray = oldArray.slice(0);"
       }
     ]
   },
@@ -4741,19 +4737,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)3"
+        "text": "3"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)6"
+        "text": "6"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)7"
+        "text": "7"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       }
     ]
   },
@@ -4762,23 +4758,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)-4"
+        "text": "-4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)-3"
+        "text": "-3"
       }
     ]
   },
@@ -4787,23 +4783,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"05\""
+        "text": "\"05\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"5\""
+        "text": "\"5\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       }
     ]
   },
@@ -4812,19 +4808,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Matt Matt"
+        "text": "Matt Matt"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)James Matt"
+        "text": "James Matt"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Matt James"
+        "text": "Matt James"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)James James"
+        "text": "James James"
       }
     ]
   },
@@ -4833,23 +4829,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)4"
+        "text": "4"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)9"
+        "text": "9"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)syntax error"
+        "text": "syntax error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)18"
+        "text": "18"
       }
     ]
   },
@@ -4858,23 +4854,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"who\""
+        "text": "\"who\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Nothing, the code throws a syntax error"
+        "text": "Nothing, the code throws a syntax error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"what\""
+        "text": "\"what\""
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -4883,19 +4879,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)indexOf()"
+        "text": "indexOf()"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)search()"
+        "text": "search()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)charCodeAt()"
+        "text": "charCodeAt()"
       }
     ]
   },
@@ -4904,23 +4900,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency){ name: 'Mike', age: 25 }"
+        "text": "{ name: 'Mike', age: 25 }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)This code won't run. It throws a SyntaxError."
+        "text": "This code won't run. It throws a SyntaxError."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency){ name: 'Mike', age: '25' }"
+        "text": "{ name: 'Mike', age: '25' }"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       }
     ]
   },
@@ -4929,23 +4925,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[]"
+        "text": "[]"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'a'"
+        "text": "'a'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Syntax Error"
+        "text": "Syntax Error"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'r'"
+        "text": "'r'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -4954,23 +4950,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new Boolean(0) == 0"
+        "text": "new Boolean(0) == 0"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)new Boolean('false') == false"
+        "text": "new Boolean('false') == false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new Boolean(1) == 1"
+        "text": "new Boolean(1) == 1"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)They're all evaluate to true"
+        "text": "They're all evaluate to true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new Boolean('true') == true"
+        "text": "new Boolean('true') == true"
       }
     ]
   },
@@ -4979,19 +4975,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Logarithm base e (Euler's number) of x."
+        "text": "Logarithm base e (Euler's number) of x."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Logarithm base 8 of x."
+        "text": "Logarithm base 8 of x."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Logarithm base 2 of x."
+        "text": "Logarithm base 2 of x."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Logarithm base 10 of x."
+        "text": "Logarithm base 10 of x."
       }
     ]
   },
@@ -5000,19 +4996,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)and"
+        "text": "and"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)instanceof"
+        "text": "instanceof"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)debugger"
+        "text": "debugger"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)while"
+        "text": "while"
       }
     ]
   },
@@ -5021,23 +5017,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Hello World! undefined"
+        "text": "Hello World! undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined Hello World!"
+        "text": "undefined Hello World!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)function"
+        "text": "function"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)string"
+        "text": "string"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)object"
+        "text": "object"
       }
     ]
   },
@@ -5046,23 +5042,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)NaN"
+        "text": "NaN"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Throws a TypeError on the \"x++;\" statement"
+        "text": "Throws a TypeError on the \"x++;\" statement"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       }
     ]
   },
@@ -5071,23 +5067,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)ReferenceError: Invalid left-hand side in assignment"
+        "text": "ReferenceError: Invalid left-hand side in assignment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)SyntaxError: Unexpected token"
+        "text": "SyntaxError: Unexpected token"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"foo\""
+        "text": "\"foo\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"undefined\""
+        "text": "\"undefined\""
       }
     ]
   },
@@ -5096,19 +5092,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Unix timestamp in milliseconds (UTC timezone)"
+        "text": "Unix timestamp in milliseconds (UTC timezone)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Unix timestamp in milliseconds (Local timezone)"
+        "text": "Unix timestamp in milliseconds (Local timezone)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A SyntaxError"
+        "text": "A SyntaxError"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The Unix epoch (1970-01-01 00:00:00)"
+        "text": "The Unix epoch (1970-01-01 00:00:00)"
       }
     ]
   },
@@ -5117,23 +5113,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1"
+        "text": "1"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Error thrown when running the code"
+        "text": "Error thrown when running the code"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)6"
+        "text": "6"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)[object]"
+        "text": "[object]"
       }
     ]
   },
@@ -5142,19 +5138,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)splice()"
+        "text": "splice()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)slice()"
+        "text": "slice()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)all of them"
+        "text": "all of them"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)concat()"
+        "text": "concat()"
       }
     ]
   },
@@ -5163,19 +5159,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Infinity"
+        "text": "Infinity"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)-Infinity"
+        "text": "-Infinity"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0"
+        "text": "0"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)null"
+        "text": "null"
       }
     ]
   },
@@ -5184,19 +5180,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean, integer, float, string, array, object and null"
+        "text": "boolean, integer, float, string, array, object and null"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean, number, string, function, object, null and undefined"
+        "text": "boolean, number, string, function, object, null and undefined"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)boolean, number, date, regexp, array and object"
+        "text": "boolean, number, date, regexp, array and object"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)boolean, number, string, function, object and undefined"
+        "text": "boolean, number, string, function, object and undefined"
       }
     ]
   },
@@ -5205,15 +5201,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Because the \"length\" property isn't a real property (defined and set through get/set accessors). Properties with accessors are not included in for-in loops."
+        "text": "Because the \"length\" property isn't a real property (defined and set through get/set accessors). Properties with accessors are not included in for-in loops."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Because the \"length\" property is only in the String prototype, it is not an own property of string objects, and as such is not included in a for-in loop."
+        "text": "Because the \"length\" property is only in the String prototype, it is not an own property of string objects, and as such is not included in a for-in loop."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Because the \"length\" property has internal [[Enumerable]] set to false."
+        "text": "Because the \"length\" property has internal [[Enumerable]] set to false."
       }
     ]
   },
@@ -5222,15 +5218,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Create a local variable named \"void\" but stays undefined due to a SyntaxError."
+        "text": "Create a local variable named \"void\" but stays undefined due to a SyntaxError."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Throw a SyntaxError"
+        "text": "Throw a SyntaxError"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Assign an anonymous function to variable named \"void\""
+        "text": "Assign an anonymous function to variable named \"void\""
       }
     ]
   },
@@ -5239,11 +5235,11 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -5252,19 +5248,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new Date(1998, 1, 10);"
+        "text": "new Date(1998, 1, 10);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new Date(1, 10, 1998);"
+        "text": "new Date(1, 10, 1998);"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)new Date(1998, 0, 10);"
+        "text": "new Date(1998, 0, 10);"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)new Date(0, 10, 1998);"
+        "text": "new Date(0, 10, 1998);"
       }
     ]
   },
@@ -5273,23 +5269,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Syntax Error"
+        "text": "Syntax Error"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'false'"
+        "text": "'false'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)undefined"
+        "text": "undefined"
       }
     ]
   },
@@ -5298,11 +5294,11 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true"
+        "text": "true"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)false"
+        "text": "false"
       }
     ]
   },
@@ -5311,23 +5307,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)implements"
+        "text": "implements"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)goto"
+        "text": "goto"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)super"
+        "text": "super"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)abstract"
+        "text": "abstract"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)array"
+        "text": "array"
       }
     ]
   }

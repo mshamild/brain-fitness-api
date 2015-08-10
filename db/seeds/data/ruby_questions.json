@@ -4,19 +4,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)User.new"
+        "text": "User.new"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)User.destroy"
+        "text": "User.destroy"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)User.find"
+        "text": "User.find"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)User.save"
+        "text": "User.save"
       }
     ]
   },
@@ -25,19 +25,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Running the rake task with the assets:precompile parameter when CSS and JavaScript files are updated."
+        "text": "Running the rake task with the assets:precompile parameter when CSS and JavaScript files are updated."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Set a true value for the config.assets.compile parameter in the config/environments/production.rb file."
+        "text": "Set a true value for the config.assets.compile parameter in the config/environments/production.rb file."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Implementing the Rails asset pipeline feature to minify JavaScript & CSS assets."
+        "text": "Implementing the Rails asset pipeline feature to minify JavaScript & CSS assets."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)All of these."
+        "text": "All of these."
       }
     ]
   },
@@ -46,19 +46,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)request.url"
+        "text": "request.url"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)request.request_uri"
+        "text": "request.request_uri"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)request.fullpath"
+        "text": "request.fullpath"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)request.current_path"
+        "text": "request.current_path"
       }
     ]
   },
@@ -67,15 +67,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Put it in a global variable."
+        "text": "Put it in a global variable."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Create a Singleton and store it in a class variable."
+        "text": "Create a Singleton and store it in a class variable."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Store it in a thread locally."
+        "text": "Store it in a thread locally."
       }
     ]
   },
@@ -84,19 +84,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)bundle install"
+        "text": "bundle install"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)generate model"
+        "text": "generate model"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)annotate"
+        "text": "annotate"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails server"
+        "text": "Rails server"
       }
     ]
   },
@@ -105,19 +105,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Embedded Ruby"
+        "text": "Embedded Ruby"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)HAML"
+        "text": "HAML"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Mustache"
+        "text": "Mustache"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Razor"
+        "text": "Razor"
       }
     ]
   },
@@ -126,19 +126,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'new' sets the foreign key while 'build' does not."
+        "text": "'new' sets the foreign key while 'build' does not."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'build' sets the foreign key while 'new' does not."
+        "text": "'build' sets the foreign key while 'new' does not."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)'build' sets the foreign key and adds it to the collection."
+        "text": "'build' sets the foreign key and adds it to the collection."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)'new' sets the foreign key and adds it to the collection."
+        "text": "'new' sets the foreign key and adds it to the collection."
       }
     ]
   },
@@ -147,19 +147,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)type casting error"
+        "text": "type casting error"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)test5"
+        "text": "test5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)5"
+        "text": "5"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)testtesttesttesttest"
+        "text": "testtesttesttesttest"
       }
     ]
   },
@@ -168,15 +168,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The web-server serves the file directly from disk, bypassing Rails."
+        "text": "The web-server serves the file directly from disk, bypassing Rails."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails checks to see if there is a cached page on disk and passes it onto the server."
+        "text": "Rails checks to see if there is a cached page on disk and passes it onto the server."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails checks its in-memory cache and passes the page onto the server."
+        "text": "Rails checks its in-memory cache and passes the page onto the server."
       }
     ]
   },
@@ -185,19 +185,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)_url is absolute while _path is relative."
+        "text": "_url is absolute while _path is relative."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)_path is relative while _path is absolute."
+        "text": "_path is relative while _path is absolute."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)_path is used in controllers while _url is used in views."
+        "text": "_path is used in controllers while _url is used in views."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)_path is used in views while _url is used in controllers."
+        "text": "_path is used in views while _url is used in controllers."
       }
     ]
   },
@@ -206,19 +206,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<% @images.each.do |page,index| %>\n      <% end %>\n    "
+        "text": "<% @images.each.do |page,index| %>\n      <% end %>\n    "
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)<% @images.each_with_index do |page, index| %>\n      <% end %>"
+        "text": "<% @images.each_with_index do |page, index| %>\n      <% end %>"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<% @images.collect.each.at_index do |page, index| %>\n      <% end %>\n    "
+        "text": "<% @images.collect.each.at_index do |page, index| %>\n      <% end %>\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       }
     ]
   },
@@ -227,19 +227,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)namespace :api do\n      namespace :v1 do\n      resources :users\n      end\n      namespace :v2 do\n      resources :users\n      end\n      match 'v:api/*path', :to => redirect(\"/api/v2/%{path}\")\n      match '*path', :to => redirect(\"/api/v2/%{path}\")\n      end\n    "
+        "text": "namespace :api do\n      namespace :v1 do\n      resources :users\n      end\n      namespace :v2 do\n      resources :users\n      end\n      match 'v:api/*path', :to => redirect(\"/api/v2/%{path}\")\n      match '*path', :to => redirect(\"/api/v2/%{path}\")\n      end\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)namespace :api do\n      resources :users\n      end\n      namespace :v2 do\n      resources :users\n      end\n      match 'v:api/*path', :to => redirect(\"/api/v1/%{path}\")\n      match '*path', :to => redirect(\"/api/v1/%{path}\")\n      end\n    "
+        "text": "namespace :api do\n      resources :users\n      end\n      namespace :v2 do\n      resources :users\n      end\n      match 'v:api/*path', :to => redirect(\"/api/v1/%{path}\")\n      match '*path', :to => redirect(\"/api/v1/%{path}\")\n      end\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)namespace :api do\n      scope :module => :v3, &current_api_routes\n      namespace :v3, &current_api_routes\n      namespace :v2, &current_api_routes\n      namespace :v1, &current_api_routes\n      match \":api/*path\", :to => redirect(\"/api/v3/%{path}\")\n      end\n    "
+        "text": "namespace :api do\n      scope :module => :v3, &current_api_routes\n      namespace :v3, &current_api_routes\n      namespace :v2, &current_api_routes\n      namespace :v1, &current_api_routes\n      match \":api/*path\", :to => redirect(\"/api/v3/%{path}\")\n      end\n    "
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       }
     ]
   },
@@ -248,19 +248,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)200."
+        "text": "200."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The multiplication output of 10,10,2 is #{10*10*2}."
+        "text": "The multiplication output of 10,10,2 is #{10*10*2}."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The multiplication output of 10,10,2 is 200."
+        "text": "The multiplication output of 10,10,2 is 200."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The code will give a syntax error."
+        "text": "The code will give a syntax error."
       }
     ]
   },
@@ -269,19 +269,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"has_one\" should be used in a model whose table have foreign keys while \"belong_to\" is used with an associated table."
+        "text": "\"has_one\" should be used in a model whose table have foreign keys while \"belong_to\" is used with an associated table."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"belong_to\" should be used in a model whose table have foreign keys while \"has_one\" is used with an associated table."
+        "text": "\"belong_to\" should be used in a model whose table have foreign keys while \"has_one\" is used with an associated table."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The two are interchangeable."
+        "text": "The two are interchangeable."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these."
+        "text": "None of these."
       }
     ]
   },
@@ -290,19 +290,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)RAILS_ROOT"
+        "text": "RAILS_ROOT"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Rails.root"
+        "text": "Rails.root"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails.root.show"
+        "text": "Rails.root.show"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails.show.root"
+        "text": "Rails.show.root"
       }
     ]
   },
@@ -311,11 +311,11 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)when creating a new table don't add primary key using this\n      create_table users, :id => false do |t|\n      t.string :id, :null => false\n      ......\n      end\n      execute(\"ALTER TABLE users ADD PRIMARY KEY (id)\")\n      if not using id as primary key then in users model add the following line\n      class User < ActiveRecord::Base\n      self.primary_key = \"column_name\"\n      ....\n      end"
+        "text": "when creating a new table don't add primary key using this\n      create_table users, :id => false do |t|\n      t.string :id, :null => false\n      ......\n      end\n      execute(\"ALTER TABLE users ADD PRIMARY KEY (id)\")\n      if not using id as primary key then in users model add the following line\n      class User < ActiveRecord::Base\n      self.primary_key = \"column_name\"\n      ....\n      end"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)you can add a key to column name to make it primary\n      create_table users :id => false do |t|\n      t.string :column_name, :primary => true\n      end\n    "
+        "text": "you can add a key to column name to make it primary\n      create_table users :id => false do |t|\n      t.string :column_name, :primary => true\n      end\n    "
       }
     ]
   },
@@ -324,19 +324,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)install bundle Gemfile"
+        "text": "install bundle Gemfile"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)bundle install"
+        "text": "bundle install"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)mate Gemfile"
+        "text": "mate Gemfile"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)gem bundle install"
+        "text": "gem bundle install"
       }
     ]
   },
@@ -345,15 +345,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Implicitly loop over a set of records, and send the partial being rendered a :collection."
+        "text": "Implicitly loop over a set of records, and send the partial being rendered a :collection."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Use each to explicitly loop over a set of records."
+        "text": "Use each to explicitly loop over a set of records."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Use for to fetch individual records explicitly in a loop."
+        "text": "Use for to fetch individual records explicitly in a loop."
       }
     ]
   },
@@ -362,19 +362,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)controller"
+        "text": "controller"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)helper"
+        "text": "helper"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)model"
+        "text": "model"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)view"
+        "text": "view"
       }
     ]
   },
@@ -383,23 +383,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)PartyAnimal.party!"
+        "text": "PartyAnimal.party!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Person.party!"
+        "text": "Person.party!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Person.new.party!"
+        "text": "Person.new.party!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Both PartyAnimal.party! and Person.party!"
+        "text": "Both PartyAnimal.party! and Person.party!"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       }
     ]
   },
@@ -408,23 +408,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Class"
+        "text": "Class"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Controller"
+        "text": "Controller"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Model"
+        "text": "Model"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Module"
+        "text": "Module"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)View"
+        "text": "View"
       }
     ]
   },
@@ -433,19 +433,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)helper classes"
+        "text": "helper classes"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)database classes"
+        "text": "database classes"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)HTML layout templates"
+        "text": "HTML layout templates"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Config files"
+        "text": "Config files"
       }
     ]
   },
@@ -454,19 +454,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)AB\n      CD"
+        "text": "AB\n      CD"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)AB\n      C\n    "
+        "text": "AB\n      C\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)AB\n      D\n    "
+        "text": "AB\n      D\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)AB\n      DC\n    "
+        "text": "AB\n      DC\n    "
       }
     ]
   },
@@ -475,19 +475,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)gem 'ruby-debug1'"
+        "text": "gem 'ruby-debug1'"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)gem \"ruby-debug19\""
+        "text": "gem \"ruby-debug19\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)gem \"debugger19\""
+        "text": "gem \"debugger19\""
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)gem \"ruby-debugger\""
+        "text": "gem \"ruby-debugger\""
       }
     ]
   },
@@ -496,19 +496,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Server errors "
+        "text": "Server errors "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Record not found (404)"
+        "text": "Record not found (404)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Routing errors"
+        "text": "Routing errors"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)All of these"
+        "text": "All of these"
       }
     ]
   },
@@ -517,15 +517,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Models"
+        "text": "Models"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Controllers"
+        "text": "Controllers"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)View helpers"
+        "text": "View helpers"
       }
     ]
   },
@@ -534,19 +534,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)jQuery"
+        "text": "jQuery"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Ajax"
+        "text": "Ajax"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Script.aculo.us"
+        "text": "Script.aculo.us"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ajax-li"
+        "text": "ajax-li"
       }
     ]
   },
@@ -555,19 +555,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The fewest number of operations it will perform is n*n."
+        "text": "The fewest number of operations it will perform is n*n."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The worst case run time is proportional to the size of the square of the method's input."
+        "text": "The worst case run time is proportional to the size of the square of the method's input."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The method operates by squaring the input."
+        "text": "The method operates by squaring the input."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The return value for the method will be the length of the input squared."
+        "text": "The return value for the method will be the length of the input squared."
       }
     ]
   },
@@ -576,15 +576,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A design pattern where a fixed-size pool of threads is shared around a program."
+        "text": "A design pattern where a fixed-size pool of threads is shared around a program."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)When threads are emulated by a virtual machine or interpreter."
+        "text": "When threads are emulated by a virtual machine or interpreter."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Where programs are run across multiple CPUs."
+        "text": "Where programs are run across multiple CPUs."
       }
     ]
   },
@@ -593,19 +593,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)assert_valid"
+        "text": "assert_valid"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)assert_select_email"
+        "text": "assert_select_email"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)assert_select_encoded"
+        "text": "assert_select_encoded"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)css_select"
+        "text": "css_select"
       }
     ]
   },
@@ -614,15 +614,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Asynchronous"
+        "text": "Asynchronous"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Synchronous"
+        "text": "Synchronous"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Either; it is configurable"
+        "text": "Either; it is configurable"
       }
     ]
   },
@@ -631,15 +631,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:migrate"
+        "text": "rake db:migrate"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:reset"
+        "text": "rake db:reset"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:rollback"
+        "text": "rake db:rollback"
       }
     ]
   },
@@ -648,19 +648,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Statement X is correct, but statement Y is incorrect."
+        "text": "Statement X is correct, but statement Y is incorrect."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Statement X is incorrect, but statement Y is correct."
+        "text": "Statement X is incorrect, but statement Y is correct."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Both statements are correct."
+        "text": "Both statements are correct."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Both statements are incorrect."
+        "text": "Both statements are incorrect."
       }
     ]
   },
@@ -669,19 +669,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A"
+        "text": "A"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)B"
+        "text": "B"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)C"
+        "text": "C"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)B and C"
+        "text": "B and C"
       }
     ]
   },
@@ -690,19 +690,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ActiveRecords cannot be skipped."
+        "text": "ActiveRecords cannot be skipped."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Use option -O while generating application template."
+        "text": "Use option -O while generating application template."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Use option -SKIP_AR while generating the application template."
+        "text": "Use option -SKIP_AR while generating the application template."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Add new line SKIP: ACTIVERECORD in config.generators."
+        "text": "Add new line SKIP: ACTIVERECORD in config.generators."
       }
     ]
   },
@@ -711,19 +711,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Data Migrations"
+        "text": "Data Migrations"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Factories"
+        "text": "Factories"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Fixture Factories"
+        "text": "Fixture Factories"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Fixtures"
+        "text": "Fixtures"
       }
     ]
   },
@@ -732,19 +732,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency):validate => skip"
+        "text": ":validate => skip"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency):validate => off"
+        "text": ":validate => off"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency):validate => disable"
+        "text": ":validate => disable"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency):validate => false"
+        "text": ":validate => false"
       }
     ]
   },
@@ -753,15 +753,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)layout 'new_layout'"
+        "text": "layout 'new_layout'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)set_layout 'new_layout'"
+        "text": "set_layout 'new_layout'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)@layout = 'new_layout'"
+        "text": "@layout = 'new_layout'"
       }
     ]
   },
@@ -770,19 +770,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)*"
+        "text": "*"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)*****"
+        "text": "*****"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)*eiou"
+        "text": "*eiou"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)nil"
+        "text": "nil"
       }
     ]
   },
@@ -791,19 +791,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rails reset models; rake db:rollback"
+        "text": "rails reset models; rake db:rollback"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rails destroy model Sales; rake db:rollback"
+        "text": "rails destroy model Sales; rake db:rollback"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:rollback; rails rollback model Sales"
+        "text": "rake db:rollback; rails rollback model Sales"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:rollback; rails destroy model Sales"
+        "text": "rake db:rollback; rails destroy model Sales"
       }
     ]
   },
@@ -812,19 +812,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)There is no difference between the two; :dependent => :destroy and :dependent => :delete_all are semantically equivalent."
+        "text": "There is no difference between the two; :dependent => :destroy and :dependent => :delete_all are semantically equivalent."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)In :destroy, associated objects are destroyed alongside the object by calling their :destroy method, while in :delete_all, they are destroyed immediately, without calling their :destroy method."
+        "text": "In :destroy, associated objects are destroyed alongside the object by calling their :destroy method, while in :delete_all, they are destroyed immediately, without calling their :destroy method."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)In :delete_all, associated objects are destroyed alongside the object by calling their :destroy method, while in :destroy, they are destroyed immediately, without calling their individual :destroy methods."
+        "text": "In :delete_all, associated objects are destroyed alongside the object by calling their :destroy method, while in :destroy, they are destroyed immediately, without calling their individual :destroy methods."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these."
+        "text": "None of these."
       }
     ]
   },
@@ -833,15 +833,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency).valid? and .invalid?"
+        "text": ".valid? and .invalid?"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)valid() and invalid()"
+        "text": "valid() and invalid()"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)isvalid and isinvalid"
+        "text": "isvalid and isinvalid"
       }
     ]
   },
@@ -850,19 +850,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A migration cannot be rollbacked."
+        "text": "A migration cannot be rollbacked."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:rollback STEP=N (N is the migration number to be rollbacked)"
+        "text": "rake db:rollback STEP=N (N is the migration number to be rollbacked)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:migrate:reset: (N) (N is the migration number to be rollbacked)"
+        "text": "rake db:migrate:reset: (N) (N is the migration number to be rollbacked)"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)rake db:rollback migration=N (N is the migration number to be rollbacked)"
+        "text": "rake db:rollback migration=N (N is the migration number to be rollbacked)"
       }
     ]
   },
@@ -871,19 +871,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)<%= f.radio_button :contactmethod, 'sms' %>"
+        "text": "<%= f.radio_button :contactmethod, 'sms' %>"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<%= f.radio_button_tag :contactmethod, 'sms' %>"
+        "text": "<%= f.radio_button_tag :contactmethod, 'sms' %>"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<%= radio_button_tag :contactmethod, 'sms' %>"
+        "text": "<%= radio_button_tag :contactmethod, 'sms' %>"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)<%= f.radio_button \"contactmethod\", 'sms' %>"
+        "text": "<%= f.radio_button \"contactmethod\", 'sms' %>"
       }
     ]
   },
@@ -892,19 +892,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)<% content_for :head do %>\n      <script type=\"text/javascript\">\n      <%= render :partial => \"my_view_javascript\"\n      </script>\n      <% end %>\n      Then in layout file\n      <head>\n      ...\n      <%= yield :head %>\n      </head>"
+        "text": "<% content_for :head do %>\n      <script type=\"text/javascript\">\n      <%= render :partial => \"my_view_javascript\"\n      </script>\n      <% end %>\n      Then in layout file\n      <head>\n      ...\n      <%= yield :head %>\n      </head>"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)In the application_helper.rb file:\n      def include_javascript (file)\n      s = \" <script type=\\\"text/javascript\\\">\" + render(:file => file) + \"</script>\"\n      content_for(:head, raw(s))\n      end\n      Then in your particular view (app/views/books/index.html.erb in this example)\n      <% include_javascript 'books/index.js' %>\n    "
+        "text": "In the application_helper.rb file:\n      def include_javascript (file)\n      s = \" <script type=\\\"text/javascript\\\">\" + render(:file => file) + \"</script>\"\n      content_for(:head, raw(s))\n      end\n      Then in your particular view (app/views/books/index.html.erb in this example)\n      <% include_javascript 'books/index.js' %>\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)In the controller:\n      def get_script\n      render :file => 'app/assessts/javascripts/' + params[:name] + '.js'\n      end\n      def get_page\n      @script = '/' + params[:script_name] + '.js?body=1'\n      render page\n      end\n      In View\n      <script type=\"text/javascript\",:src => @script>\n    "
+        "text": "In the controller:\n      def get_script\n      render :file => 'app/assessts/javascripts/' + params[:name] + '.js'\n      end\n      def get_page\n      @script = '/' + params[:script_name] + '.js?body=1'\n      render page\n      end\n      In View\n      <script type=\"text/javascript\",:src => @script>\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       }
     ]
   },
@@ -913,19 +913,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)lock_version column"
+        "text": "lock_version column"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)identity column"
+        "text": "identity column"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)primary key column"
+        "text": "primary key column"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)lock_optimistic column"
+        "text": "lock_optimistic column"
       }
     ]
   },
@@ -934,15 +934,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Integer"
+        "text": "Integer"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Float"
+        "text": "Float"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)BigDecimal"
+        "text": "BigDecimal"
       }
     ]
   },
@@ -951,19 +951,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)add_index :table_name, :column_name, :unique => true"
+        "text": "add_index :table_name, :column_name, :unique => true"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)add_index :unique => true ,:table_name, :column_name"
+        "text": "add_index :unique => true ,:table_name, :column_name"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)add_index :table_name, [:column_name_a,  :unique => true ,:column_name_b], :unique => true "
+        "text": "add_index :table_name, [:column_name_a,  :unique => true ,:column_name_b], :unique => true "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None of these"
+        "text": "None of these"
       }
     ]
   },
@@ -972,19 +972,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)expire_page(:controller => 'products', :action => 'index')"
+        "text": "expire_page(:controller => 'products', :action => 'index')"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)expire_fragment(:controller => 'products', :action => 'index')"
+        "text": "expire_fragment(:controller => 'products', :action => 'index')"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)expire_page_fragment('all_available_products')"
+        "text": "expire_page_fragment('all_available_products')"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)expire_fragment('all_available_products')"
+        "text": "expire_fragment('all_available_products')"
       }
     ]
   },
@@ -993,19 +993,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)$ ruby -Itest test/unit/demo_test.rb -n test_one"
+        "text": "$ ruby -Itest test/unit/demo_test.rb -n test_one"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)$ ruby -Itest test/unit/demo_test.rb -a test_one"
+        "text": "$ ruby -Itest test/unit/demo_test.rb -a test_one"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)$ ruby -Itest test/unit/demo_test.rb test_one"
+        "text": "$ ruby -Itest test/unit/demo_test.rb test_one"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)$ ruby -Itest test/unit/demo_test.rb -t test_one"
+        "text": "$ ruby -Itest test/unit/demo_test.rb -t test_one"
       }
     ]
   },
@@ -1014,19 +1014,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The application will give an exception as @title variable is not defined in the controller."
+        "text": "The application will give an exception as @title variable is not defined in the controller."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The HTML page will render with the title: Ruby on Rails sample application | <%=@title%>."
+        "text": "The HTML page will render with the title: Ruby on Rails sample application | <%=@title%>."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The HTML page will render with the title: Ruby on Rails sample application |."
+        "text": "The HTML page will render with the title: Ruby on Rails sample application |."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The HTML page will render with the title: Ruby on Rails sample application."
+        "text": "The HTML page will render with the title: Ruby on Rails sample application."
       }
     ]
   },
@@ -1035,19 +1035,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Models"
+        "text": "Models"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Controllers"
+        "text": "Controllers"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Views"
+        "text": "Views"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Helper classes"
+        "text": "Helper classes"
       }
     ]
   },
@@ -1056,15 +1056,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)UsersHelper"
+        "text": "UsersHelper"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)UserControllerHelper"
+        "text": "UserControllerHelper"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)UserHelp"
+        "text": "UserHelp"
       }
     ]
   },
@@ -1073,19 +1073,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)application.html.erb"
+        "text": "application.html.erb"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)default.html.erb"
+        "text": "default.html.erb"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)index.html.erb"
+        "text": "index.html.erb"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)layout.html.erb"
+        "text": "layout.html.erb"
       }
     ]
   },
@@ -1094,19 +1094,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Rails does not support ODBC connectivity."
+        "text": "Rails does not support ODBC connectivity."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails can rollback database changes in development mode."
+        "text": "Rails can rollback database changes in development mode."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails can work and connect with multiple databases."
+        "text": "Rails can work and connect with multiple databases."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails database information is stored in the database.yml file."
+        "text": "Rails database information is stored in the database.yml file."
       }
     ]
   },
@@ -1115,15 +1115,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)A class for which there is only ever one instance."
+        "text": "A class for which there is only ever one instance."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A single feature application, intended to enhance usability by keeping things simple."
+        "text": "A single feature application, intended to enhance usability by keeping things simple."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)A class which is never instanced, but acts as a container for methods which are used by it's subclasses."
+        "text": "A class which is never instanced, but acts as a container for methods which are used by it's subclasses."
       }
     ]
   },
@@ -1132,15 +1132,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)It is not possible, because ActiveRecord queries cannot be made from Views."
+        "text": "It is not possible, because ActiveRecord queries cannot be made from Views."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)It is not possible, because Controllers do not provide enough information to the Views."
+        "text": "It is not possible, because Controllers do not provide enough information to the Views."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)It is possible, but it is a bad idea because Views should only be responsible for displaying objects passed to them."
+        "text": "It is possible, but it is a bad idea because Views should only be responsible for displaying objects passed to them."
       }
     ]
   },
@@ -1149,23 +1149,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Ruby Enclosed Standard Templating"
+        "text": "Ruby Enclosed Standard Templating"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Resource Standard Transfer"
+        "text": "Resource Standard Transfer"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)REasonable Standards Testing"
+        "text": "REasonable Standards Testing"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)REpresentational State Transfer"
+        "text": "REpresentational State Transfer"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rights Enabled Safety Tunnel"
+        "text": "Rights Enabled Safety Tunnel"
       }
     ]
   },
@@ -1174,15 +1174,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)hive_id"
+        "text": "hive_id"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)hives_id"
+        "text": "hives_id"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)ee_id"
+        "text": "ee_id"
       }
     ]
   },
@@ -1191,19 +1191,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)The available log levels are: :debug, :info, :warn, :error, and :fatal, corresponding to the log level numbers from 1 up to 5 respectively."
+        "text": "The available log levels are: :debug, :info, :warn, :error, and :fatal, corresponding to the log level numbers from 1 up to 5 respectively."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)To check the current log level, the Rails.logger.level method has to be called."
+        "text": "To check the current log level, the Rails.logger.level method has to be called."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)By default, each log is created under Rails.root/log/ and the log file name is environment_name.log."
+        "text": "By default, each log is created under Rails.root/log/ and the log file name is environment_name.log."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)The default Rails log level is error in production mode and debug in development and test mode."
+        "text": "The default Rails log level is error in production mode and debug in development and test mode."
       }
     ]
   },
@@ -1212,19 +1212,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)controllers"
+        "text": "controllers"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)helpers"
+        "text": "helpers"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)assets"
+        "text": "assets"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)views"
+        "text": "views"
       }
     ]
   },
@@ -1233,19 +1233,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)RVM is a command-line tool which allows developers to easily install, manage, and work with multiple Ruby environments from interpreters to sets of gems."
+        "text": "RVM is a command-line tool which allows developers to easily install, manage, and work with multiple Ruby environments from interpreters to sets of gems."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)RVM provides a revision control tool to maintain current and historical versions of files such as source code, web pages, and documentation."
+        "text": "RVM provides a revision control tool to maintain current and historical versions of files such as source code, web pages, and documentation."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Test suites, rake tasks, benchmarks and gem commands can be run against multiple Ruby versions at the same time with RVM."
+        "text": "Test suites, rake tasks, benchmarks and gem commands can be run against multiple Ruby versions at the same time with RVM."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)RVM cannot automate the installation and maintenance of gems, it has to be done manually."
+        "text": "RVM cannot automate the installation and maintenance of gems, it has to be done manually."
       }
     ]
   },
@@ -1254,19 +1254,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Page Caching"
+        "text": "Page Caching"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Fragment Caching"
+        "text": "Fragment Caching"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Object Caching"
+        "text": "Object Caching"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Query Caching"
+        "text": "Query Caching"
       }
     ]
   },
@@ -1275,19 +1275,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)config/environment folder"
+        "text": "config/environment folder"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)public folder"
+        "text": "public folder"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)spec folder"
+        "text": "spec folder"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)task folder"
+        "text": "task folder"
       }
     ]
   },
@@ -1296,15 +1296,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)They should always require arguments."
+        "text": "They should always require arguments."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)They should always return a boolean value."
+        "text": "They should always return a boolean value."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)They should always report a value of the object they're being called on."
+        "text": "They should always report a value of the object they're being called on."
       }
     ]
   },
@@ -1313,19 +1313,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)A"
+        "text": "A"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)B"
+        "text": "B"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Both A and B are correct."
+        "text": "Both A and B are correct."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Both A and B are incorrect."
+        "text": "Both A and B are incorrect."
       }
     ]
   },
@@ -1334,15 +1334,15 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)render :partial => 'shared/cart'"
+        "text": "render :partial => 'shared/cart'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)partial 'shared/cart'"
+        "text": "partial 'shared/cart'"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)render 'cart'"
+        "text": "render 'cart'"
       }
     ]
   },
@@ -1351,19 +1351,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)They are intended for cases in which the server seems to have encountered an error."
+        "text": "They are intended for cases in which the server seems to have encountered an error."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)They are intended for cases in which the client seems to have encountered an error."
+        "text": "They are intended for cases in which the client seems to have encountered an error."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)They indicate that further action needs to be taken by the user agent in order to fulfill the request."
+        "text": "They indicate that further action needs to be taken by the user agent in order to fulfill the request."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)They indicate that no further action can be taken by the user agent."
+        "text": "They indicate that no further action can be taken by the user agent."
       }
     ]
   },
@@ -1372,19 +1372,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)validates_presence_of"
+        "text": "validates_presence_of"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)validates_length_of"
+        "text": "validates_length_of"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)validates_confirmation_of"
+        "text": "validates_confirmation_of"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)validates_uniqueness_of"
+        "text": "validates_uniqueness_of"
       }
     ]
   },
@@ -1393,15 +1393,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)partial_login.e"
+        "text": "partial_login.e"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)_login.html.e"
+        "text": "_login.html.e"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)login.html.e"
+        "text": "login.html.e"
       }
     ]
   },
@@ -1410,19 +1410,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency) 1) false\n      2) true\n      3) NoMethodError: undefined method `empty?' for nil:NilClass\n      4) true\n      5) NoMethodError: undefined method `any?' for \"\":String\n      6) false "
+        "text": " 1) false\n      2) true\n      3) NoMethodError: undefined method `empty?' for nil:NilClass\n      4) true\n      5) NoMethodError: undefined method `any?' for \"\":String\n      6) false "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency) 1) false\n      2) NoMethodError: undefined method `empty?' for \"\":String\n      3) true\n      4) true\n      5) NoMethodError: undefined method `any?' for \"\":String\n      6) false\n    "
+        "text": " 1) false\n      2) NoMethodError: undefined method `empty?' for \"\":String\n      3) true\n      4) true\n      5) NoMethodError: undefined method `any?' for \"\":String\n      6) false\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency) 1) false\n      2) true\n      3) true\n      4) true\n      5) false\n      6) false\n    "
+        "text": " 1) false\n      2) true\n      3) true\n      4) true\n      5) false\n      6) false\n    "
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency) 1) false\n      2) true\n      3) false\n      4) true\n      5) true\n      6) false\n    "
+        "text": " 1) false\n      2) true\n      3) false\n      4) true\n      5) true\n      6) false\n    "
       }
     ]
   },
@@ -1431,15 +1431,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)None, \"#slice\" is just an alias for \"#slice!\"."
+        "text": "None, \"#slice\" is just an alias for \"#slice!\"."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)There is no \"#slice!\" method in Ruby on Rails."
+        "text": "There is no \"#slice!\" method in Ruby on Rails."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)\"#slice\" returns a new object, \"#slice!\" destructively updates â mutates â the object's value."
+        "text": "\"#slice\" returns a new object, \"#slice!\" destructively updates â mutates â the object's value."
       }
     ]
   },
@@ -1448,23 +1448,23 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)index"
+        "text": "index"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)show"
+        "text": "show"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)create"
+        "text": "create"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)edit"
+        "text": "edit"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)update"
+        "text": "update"
       }
     ]
   },
@@ -1473,19 +1473,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)All files in lib."
+        "text": "All files in lib."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)All files in models, views, controllers, and files named rails.rb in lib."
+        "text": "All files in models, views, controllers, and files named rails.rb in lib."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All files in models, views, controllers, and any init.rb in plugins."
+        "text": "All files in models, views, controllers, and any init.rb in plugins."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Only files explicitly referenced from an initializer in config/initializers."
+        "text": "Only files explicitly referenced from an initializer in config/initializers."
       }
     ]
   },
@@ -1494,19 +1494,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails semi-automates the process of writing tests. It starts by producing skeleton test code in the background while models and controllers are being written."
+        "text": "Rails semi-automates the process of writing tests. It starts by producing skeleton test code in the background while models and controllers are being written."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Running tests in Rails ensures that the code adheres to the desired functionality even after major code refactoring."
+        "text": "Running tests in Rails ensures that the code adheres to the desired functionality even after major code refactoring."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Rails tests can simulate browser requests, and thus test the application's response without having to test it through a browser."
+        "text": "Rails tests can simulate browser requests, and thus test the application's response without having to test it through a browser."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)All of these."
+        "text": "All of these."
       }
     ]
   },
@@ -1515,15 +1515,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Subclasses inherit a default value for the class variable, which can then be modified for just the subclass."
+        "text": "Subclasses inherit a default value for the class variable, which can then be modified for just the subclass."
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Class variables are shared between between all classes in the hierarchy."
+        "text": "Class variables are shared between between all classes in the hierarchy."
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Class variables are not inherited."
+        "text": "Class variables are not inherited."
       }
     ]
   },
@@ -1532,15 +1532,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Product.find(:productid=>2), :offset=>5"
+        "text": "Product.find(:productid=>2), :offset=>5"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Product.find(:productid=>2), :limit=>5"
+        "text": "Product.find(:productid=>2), :limit=>5"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Product.find(:productid=>2), :only=>5"
+        "text": "Product.find(:productid=>2), :only=>5"
       }
     ]
   },
@@ -1549,19 +1549,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a href='/users/1'>Angel</a"
+        "text": "a href='/users/1'>Angel</a"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)a href='Angel'>/users/1</a"
+        "text": "a href='Angel'>/users/1</a"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a href='/users/1'>/users/1</a"
+        "text": "a href='/users/1'>/users/1</a"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)a href='Angel'>Angel</a"
+        "text": "a href='Angel'>Angel</a"
       }
     ]
   },
@@ -1570,15 +1570,15 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)blog_comment"
+        "text": "blog_comment"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)blogcomments"
+        "text": "blogcomments"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)blog_comments"
+        "text": "blog_comments"
       }
     ]
   },
@@ -1587,19 +1587,19 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)20"
+        "text": "20"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)Sample Text"
+        "text": "Sample Text"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)No output"
+        "text": "No output"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)Syntax error"
+        "text": "Syntax error"
       }
     ]
   },
@@ -1608,19 +1608,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)render :layout=>false"
+        "text": "render :layout=>false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)render :layout=>nil"
+        "text": "render :layout=>nil"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)render :layout=>disabled"
+        "text": "render :layout=>disabled"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)render :layout=>off"
+        "text": "render :layout=>off"
       }
     ]
   },
@@ -1629,23 +1629,23 @@
     "answers": [
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)true, false"
+        "text": "true, false"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)\"fun\", nil"
+        "text": "\"fun\", nil"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)1 and 0 only"
+        "text": "1 and 0 only"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)0 and nil only"
+        "text": "0 and nil only"
       },
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)nil, 0, and any positive integer"
+        "text": "nil, 0, and any positive integer"
       }
     ]
   },
@@ -1654,19 +1654,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)form_for"
+        "text": "form_for"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)create_form"
+        "text": "create_form"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)form_do"
+        "text": "form_do"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)form"
+        "text": "form"
       }
     ]
   },
@@ -1675,19 +1675,19 @@
     "answers": [
       {
         "value": true,
-        "text": "money_format(p.cdm_cost, p.currency)index"
+        "text": "index"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)run"
+        "text": "run"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)show"
+        "text": "show"
       },
       {
         "value": false,
-        "text": "money_format(p.cdm_cost, p.currency)login"
+        "text": "login"
       }
     ]
   }

@@ -7,6 +7,8 @@ Rails.application.routes.draw do
         resources :sessions, only: :create
         resource :registrations, only: [:create, :update]
       end
+
+      resources :games, only: :create
     end
   end
 end
