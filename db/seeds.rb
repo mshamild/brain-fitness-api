@@ -4,16 +4,17 @@
 ].each do |attributes|
   category = Category.find_or_create_by! attributes.slice(:title, :color)
 
-  questions_attributes =
+  questions_hashes =
     JSON.parse \
     IO.read \
     Rails.root.join('db', 'seeds', 'data', attributes[:file])
 
-  questions_attributes.each do |attributes|
-    question = Question.find_or_create_by!(text: attributes['question'], category: category)
-
-    attributes['answers'].each do |attributes|
-      AnswerVariant.find_or_create_by! attributes.merge(question: question)
+  questions_hashes.each do |attributes|
+    Question.find_or_create_by(text: attributes['question']) do |question|
+      question.category = category
+      question.answer_variants = attributes['answers'].map do |attributes|
+        AnswerVariant.find_or_initialize_by(attributes)
+      end
     end
   end
 end
