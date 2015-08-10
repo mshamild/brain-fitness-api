@@ -7,7 +7,7 @@ describe GameCreator::GameBuilder do
     create_list :category, 3, :with_questions
   end
 
-  it "returns valid game with 6 rounds" do
+  it 'returns valid game with 6 rounds' do
     expect(game).to be_valid
   end
 end

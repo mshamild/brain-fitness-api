@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :category do
     title { Faker::Lorem.word }
-    color { rand(2 ** 24 -1).to_s(16) }
+    color { rand(2**24 - 1).to_s(16) }
 
     trait :with_questions do
       after(:create) do |category|

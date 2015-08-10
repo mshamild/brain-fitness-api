@@ -7,7 +7,7 @@ describe GameCreator do
     create_list :category, 3, :with_questions
   end
 
-  it "creates new game" do
+  it 'creates new game' do
     expect(game).to be_persisted
     expect(game).to be_valid
 

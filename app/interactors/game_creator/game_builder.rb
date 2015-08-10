@@ -12,6 +12,6 @@ class GameCreator::GameBuilder
   end
 
   def new_rounds
-    RoundsBuilder.call.rounds
+    GameCreator::RoundsBuilder.call.rounds
   end
 end

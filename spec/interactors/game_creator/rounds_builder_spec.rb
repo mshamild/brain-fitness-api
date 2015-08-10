@@ -8,11 +8,11 @@ describe GameCreator::RoundsBuilder do
     create_list :category, 3, :with_questions
   end
 
-  it "returns valid rounds" do
+  it 'returns valid rounds' do
     rounds.each do |round|
       round.game = game
       expect(round).to be_valid
-      expect(round.round_categories.to_a.count).to eq 3
+      expect(round.round_categories.to_a.size).to eq 3
     end
   end
 end
