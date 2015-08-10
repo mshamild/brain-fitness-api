@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 describe GameCreator do
-  let(:game) { described_class.call.game }
+  let(:user) { create :user }
+  let(:game) { described_class.call(user: user).game }
 
   before do
     create_list :category, 3, :with_questions

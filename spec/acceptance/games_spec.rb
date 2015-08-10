@@ -18,5 +18,17 @@ resource 'Games' do
         expect(json_response['game']).to be_a_game_representation(Game.last)
       end
     end
+
+    context 'when games with one user exists' do
+      let(:another_user) { create :user }
+      let!(:existing_game) { create :game, users: [another_user] }
+
+      example_request 'Find existing game' do
+        expect(json_response['game']).to be_a_game_representation(existing_game)
+        expect(Game.count).to eq 1
+        expect(existing_game.users.count).to eq 2
+        expect(existing_game.users_count).to eq 2
+      end
+    end
   end
 end
