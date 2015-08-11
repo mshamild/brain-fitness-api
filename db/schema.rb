@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150811142226) do
+ActiveRecord::Schema.define(version: 20150811151603) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,18 +26,6 @@ ActiveRecord::Schema.define(version: 20150811142226) do
 
   add_index "answer_variants", ["question_id"], name: "index_answer_variants_on_question_id", using: :btree
 
-  create_table "answers", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "round_question_id"
-    t.integer  "answer_variant_id"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
-  end
-
-  add_index "answers", ["answer_variant_id"], name: "index_answers_on_answer_variant_id", using: :btree
-  add_index "answers", ["round_question_id"], name: "index_answers_on_round_question_id", using: :btree
-  add_index "answers", ["user_id"], name: "index_answers_on_user_id", using: :btree
-
   create_table "categories", force: :cascade do |t|
     t.string   "title"
     t.string   "color"
@@ -50,13 +38,13 @@ ActiveRecord::Schema.define(version: 20150811142226) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "games_users", id: false, force: :cascade do |t|
+  create_table "games_users", force: :cascade do |t|
     t.integer "game_id"
     t.integer "user_id"
   end
 
   add_index "games_users", ["game_id"], name: "index_games_users_on_game_id", using: :btree
-  add_index "games_users", ["user_id", "game_id"], name: "index_games_users_on_user_id_and_game_id", using: :btree
+  add_index "games_users", ["user_id"], name: "index_games_users_on_user_id", using: :btree
 
   create_table "questions", force: :cascade do |t|
     t.integer  "category_id"
