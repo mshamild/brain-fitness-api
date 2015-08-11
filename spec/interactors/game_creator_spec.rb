@@ -1,32 +1,29 @@
 require 'rails_helper'
 
 describe GameCreator do
-  let(:game) { described_class.call.game }
+  let(:user) { create :user }
 
-  before do
-    create_list :category, 3, :with_questions
+  context 'when created games not exists' do
+    it 'creates new game' do
+      game = described_class.call(user: user).game
+
+      expect(game.users.to_a).to eq [user]
+      expect(game.users_count).to eq 1
+    end
   end
 
-  it 'creates new game' do
-    expect(game).to be_persisted
-    expect(game).to be_valid
+  context 'when game exists' do
+    let(:another_user) { create :user }
 
-    expect(game.rounds.count).to eq 6
+    before do
+      create :game, users: [another_user]
+    end
 
-    game.rounds.each do |round|
-      expect(round).to be_persisted
+    it 'attach user to game' do
+      game = described_class.call(user: user).game
 
-      expect(round.round_categories.count).to eq 3
-
-      round.round_categories.each do |round_category|
-        expect(round_category).to be_persisted
-
-        expect(round_category.round_questions.count).to eq 3
-
-        round_category.round_questions.each do |round_question|
-          expect(round_question).to be_valid
-        end
-      end
+      expect(game.users).to eq [another_user, user]
+      expect(game.users_count).to eq 2
     end
   end
 end

@@ -1,4 +1,8 @@
 class Game < ActiveRecord::Base
-  has_and_belongs_to_many :users
+  ROUNDS_COUNT = 6
+
+  has_many :games_users, dependent: :destroy, class_name: :GamesUsers
+  has_many :users, through: :games_users
+
   has_many :rounds
 end
