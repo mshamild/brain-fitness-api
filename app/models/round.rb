@@ -1,9 +1,10 @@
 class Round < ActiveRecord::Base
-  CATEGORIES_COUNT = 3
+  QUESTIONS_COUNT = 3
 
-  belongs_to :game, inverse_of: :rounds
-  has_many :round_categories, class_name: 'RoundCategory', inverse_of: :round
+  belongs_to :game
+  belongs_to :category
+  has_many :round_questions, inverse_of: :round
 
-  validates :game, presence: true
-  validates :round_categories, length: { is: CATEGORIES_COUNT }
+  validates :game, :category, presence: true
+  validates :round_questions, length: { is: QUESTIONS_COUNT }
 end
