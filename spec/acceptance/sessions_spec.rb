@@ -5,19 +5,30 @@ resource 'Sessions' do
   subject(:json_response) { json_response_body }
 
   post '/v1/sessions' do
-    let(:user) { create :user, password: '123456' }
+    let(:existing_user) { create :user, password: '123456' }
+    let(:user) { {} }
 
-    parameter :email, 'Email', required: true
-    parameter :password, 'Password', required: true
-
-    let(:email) { user.email }
-
-    example_request 'Sign in with valid password', password: '123456' do
-      expect(json_response['user']).to be_a_user_representation(user)
+    with_options(required: true, scope: :user) do |u|
+      u.parameter :email, 'Email'
+      u.parameter :password, 'Password'
     end
 
-    example_request 'Sign in with invalid password', password: '' do
-      expect(response_status).to eq 401
+    let(:email) { existing_user.email }
+
+    context 'when valid password' do
+      let(:password) { '123456' }
+
+      example_request 'Sign in' do
+        expect(json_response['user']).to be_a_user_representation(existing_user)
+      end
+    end
+
+    context 'when invalid password' do
+      let(:password) { 'invalid_password' }
+
+      example_request 'Sign in' do
+        expect(response_status).to eq 401
+      end
     end
   end
 end
