@@ -8,7 +8,9 @@ Rails.application.routes.draw do
         resource :registrations, only: [:create, :update]
       end
 
-      resources :games, only: :create
+      resources :games, only: :create do
+        resources :round, only: :create
+      end
     end
   end
 end
