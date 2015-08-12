@@ -1,7 +1,8 @@
 class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable, :recoverable, :trackable, :validatable
 
-  has_and_belongs_to_many :games, counter_cache: :users_count
+  has_many :games_users, class_name: :GamesUsers
+  has_many :games, through: :games_users, counter_cache: :users_count
 
   before_save :ensure_authentication_token!
 
