@@ -39,6 +39,7 @@ group :development, :test do
   gem 'rubocop'
   gem 'bundler-audit'
   gem 'pry-rails'
+  gem 'rails-erd'
 end
 
 group :test do
