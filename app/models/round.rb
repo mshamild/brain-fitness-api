@@ -6,4 +6,6 @@ class Round < ActiveRecord::Base
 
   validates :game, presence: true
   validates :round_categories, length: { is: CATEGORIES_COUNT }
+
+  accepts_nested_attributes_for :round_categories
 end

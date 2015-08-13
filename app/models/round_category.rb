@@ -7,4 +7,6 @@ class RoundCategory < ActiveRecord::Base
 
   validates :round, :category, presence: true
   validates :round_questions, length: { is: QUESTIONS_COUNT }
+
+  accepts_nested_attributes_for :round_questions
 end
