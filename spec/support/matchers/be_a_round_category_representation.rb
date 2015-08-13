@@ -13,7 +13,7 @@ RSpec::Matchers.define :be_a_round_category_representation do |round_category|
 
     expect(json['round_questions'].count).to eq 3
 
-    round_category.round_questions.zip(json['round_questions']).each do |round_question, question_json|
+    round_category.round_questions.zip(json['round_questions']).each.map do |round_question, question_json|
       expect(question_json).to be_a_round_question_representation(round_question)
     end
   end

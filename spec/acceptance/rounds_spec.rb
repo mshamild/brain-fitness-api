@@ -48,6 +48,8 @@ resource 'Rounds' do
 
       expect(question_1.answers.first.answer_variant_id).to eq answer_variant_id
       expect(question_1.answers.first.user_id).to eq current_user.id
+
+      expect(json_response_body['round']).to be_a_round_representation(round)
     end
   end
 end

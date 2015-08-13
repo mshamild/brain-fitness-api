@@ -15,7 +15,9 @@ resource 'Games' do
 
     context 'when games not exists' do
       example_request 'Create new game' do
-        expect(json_response['game']).to be_a_game_representation(Game.last)
+        game = Game.find(json_response['game']['id'])
+
+        expect(json_response['game']).to eq be_a_game_representation(game)
       end
     end
   end

@@ -10,5 +10,9 @@ RSpec::Matchers.define :be_a_round_question_representation do |round_question|
     expect(json).to include_attributes(response_attributes)
 
     expect(json['question']).to be_a_question_representation(round_question.question)
+
+    round_question.answers.zip(json['answers']).each.map do |answer, answer_json|
+      expect(answer_json).to be_a_answer_representation(answer)
+    end
   end
 end
