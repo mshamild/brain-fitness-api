@@ -9,7 +9,7 @@ Rails.application.routes.draw do
       end
 
       resources :games, only: :create do
-        resources :rounds, only: :create
+        resources :rounds, only: [:update, :show]
       end
     end
   end

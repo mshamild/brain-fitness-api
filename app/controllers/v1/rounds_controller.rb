@@ -1,8 +1,12 @@
 class V1::RoundsController < V1::BaseController
-  def update
-    RoundUpdater.call(round: round, user: current_user, attributes: attributes)
+  def show
+    respond_with round
+  end
 
-    render json: round, serializer: RoundSerializer
+  def update
+    RoundUpdater.call(round: round, user: current_user, attributes: answers_params)
+
+    render json: round
   end
 
   private
