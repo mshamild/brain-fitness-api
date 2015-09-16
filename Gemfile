@@ -5,6 +5,7 @@ ruby '2.2.1'
 # the most important stuff
 gem 'rails'
 gem 'pg'
+gem 'rails_admin'
 
 # all other gems
 gem 'responders'

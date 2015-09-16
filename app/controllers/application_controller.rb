@@ -13,5 +13,5 @@ class ApplicationController < ActionController::Base
     strategy DecentExposure::StrongParametersStrategy
   end
 
-  respond_to :json
+  respond_to :json, :html
 end

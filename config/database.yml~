@@ -1,0 +1,16 @@
+# postgres
+#
+defaults_development: &defaults_development
+  adapter: postgresql
+  encoding: unicode
+  username: brain-fitness-api
+  password: 1234
+  host: localhost
+
+development:
+  database: bfa_def
+  <<: *defaults_development
+
+test:
+  database: bfa_test
+  <<: *defaults_development

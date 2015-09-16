@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  scope defaults: { format: :json } do
-    devise_for :users, only: []
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+    devise_for :users
 
     namespace :v1 do
       devise_scope :user do
@@ -10,5 +10,4 @@ Rails.application.routes.draw do
 
       resources :games, only: :create
     end
-  end
 end
