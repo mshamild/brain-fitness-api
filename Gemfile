@@ -6,6 +6,7 @@ ruby '2.2.1'
 gem 'rails'
 gem 'pg'
 gem 'rails_admin'
+gem 'api_taster'
 
 # all other gems
 gem 'responders'

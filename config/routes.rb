@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount ApiTaster::Engine => "/api_taster" if Rails.env.development?
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
     devise_for :users
 
